@@ -21,5 +21,3 @@ toggleBtn.onclick = function() {
 /* Add a class of 'js' to the HTML element */
 var root = document.documentElement;
 root.className = root.className + ' js';
-
-// video

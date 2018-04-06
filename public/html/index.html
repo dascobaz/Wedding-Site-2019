@@ -2,92 +2,65 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Flexbox</title>
     <link rel="stylesheet" href="/css/main.css">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-
-  <script type="text/javascript">
-        var doc = document, docEl = doc.documentElement;
-        docEl.className = docEl.className.replace(/(^|\s)no-js(\s|$)/, " js ");
-  </script>
-
-  <script src="http://responsive-nav.com/demo/responsive-nav.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   </head>
   <body>
+    <h1 class="text-center">5 flex-box tips you should know</h1>
+
+<ul class="nav nav-pills nav-justified">
+  <li role="presentation" class="active"><a href="#columns-equal">Columns Equal Height</a></li>
+  <li role="presentation"><a href="#order">Order</a></li>
+  <li role="presentation"><a href="#centering">Centering Aligment</a></li>
+ <li role="presentation"><a href="#responsive">Responsive Grid</a></li>
+<li role="presentation"><a href="#sticky">Sticky Footer</a></li>
+</ul>
 
 
-  <div role="navigation" id="nav">
-     <ul>
-       <li class="active"><a href="#">Home</a></li>
-       <li><a href="#">About</a></li>
-       <li><a href="#">Projects</a></li>
-       <li><a href="#">Blog</a></li>
-     </ul>
-  </div>
+<h3 class="text-center" id="columns-equal">1. Columns with the equal height</h3>
 
-  <div role="main" class="main"> <a href="#nav" id="toggle">Menu</a>
-        <!-- page 1 -->
-                  <div class="page primary" id="p1">
-                    <div id='stars'>
-                      <div id='stringLights'></div>
-                    </div>
-                     <section class="icon fa fa">
-                       <span class="title"></span>
-                       <span class="hint">
-                       <table width=600 border=0 align=center summary="">
-                          <tr>
-                            <td>
-                            <span class="scrollArea ">
-                              <div class="scrollTitle">
-                                <h3>How We Met</h3>
-                              </div>
+<!--1. COLUMNS WITH THE EQUAL HEIGHT-->
+
+<div class="container-flex">
+    <div class="box">Lorem ipsum dolor sit amet.</div>
+    <div class="box">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore velit autem, minima libero, sit a numquam mollitia quaerat deserunt quas tempora nulla fugit laborum, ex.</div>
+    <div class="box">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo illum necessitatibus a asperiores hic, fugit perferendis sit est excepturi quasi facilis voluptate aliquam dicta fuga facere alias distinctio corporis quas, natus ullam minima. Dicta pariatur aliquid optio esse veritatis. Sed officia, ab numquam fugiat error ratione ullam reprehenderit possimus, dolore blanditiis sequi, saepe minus vero.</div>
+</div>
+
+<!--2. COLUMNS WITH THE EQUAL HEIGHT-->
+<h3 class="text-center" id="order">2. Order with flex-box</h3>
+<div class="container-order">
+  <div class="box blue text-center">1</div>
+  <div class="box breeze text-center">2</div>
+  <div class="box yellow text-center">3</div>
+</div>
 
 
-                              <div class='storyTitle'>
-                                <h3>Jahnava's Story</h3>
-                              </div>
-                                <br>
-                              <div class='metStory'>
-                                <h4>Scott and I met in the piano room of a little venue downtown. Scott was playing solo piano and enjoying his night. I ventured by and interrupted his song by nonchalantly striking a "C" chord. Scott didn't seem to mind the intrusion and playfully said "now you have to sit down and play a song with me". Scott and I played "Heart and Soul" and talked for a while. Thereafter, we became friends and had random rendezvous including the beach, springs, furniture assembly, and cleaning my apartment fans at three in the morning. We started out as friends, but Scott had a crush on me from the beginning. He gave me this adorable note that said "Will you go out with me, Yes or no?”. I couldn’t picture myself without him, so I checked "yes". I definitely made the right decision, because now we're engaged to be friends for a lifetime.</h4>
-                              </div>
-                                <br>
-                             <div class='storyTitle'>
-                                <h3>Scott's Story</h3>
-                             </div>
-                                <br>
-                              <div class='metStory'>
-                                <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h4>
-                              </div>
-                            </span>
-                          </td></tr>
-                          <tr height="10px"><td></td></tr>
-                          <tr height="10px"><td></td></tr>
-                        <tr><td>
-                            <div class="video-container" id="lovevideo">
-                              <iframe width="600" height="400"
-                               src="https://www.youtube.com/embed/SN9X0Kjki5s?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-                            </div>
-                        </td></tr>
-                        <tr height="10px"><td></td></tr>
-                        <tr height="10px"><td></td></tr>
+<!--2. Horizontal and vertical alignment-->
+<h3 class="text-center" id="centering">3. Horizontal and vertical alignment</h3>
+<div class="flex-center-center">
+<div class="box">Lorem ipsum dolor sit amet </div>
+</div>
 
-                      <tr><td>
-                           <span class="scrollArea">
-                             <div class="scrollTitle">
-                              <h3>Wedding Party</h3>
-                              </div>
-                               <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h4>
-                           </span>
-                          </td></tr>
-                        </table>
-                          </span>
-                        </section>
-                      </div>
-   </div>
+<!--Responsive Grid with flexbox-->
+<h3 class="text-center" id="responsive">4. Responsive Grid with Flexbox</h3>
+<div class="container-flex responsive">
+      <!-- This column 25% width -->
+   <div class="box col-1">25%</div>
+  <!-- This column 50% width -->
+   <div class="box col-2">50%</div>
+   <!-- This column 25% width -->
+   <div class="box col-1">25%</div>
+</div>
 
-  <script type="text/javascript">
-        var navigation = responsiveNav("#nav", {customToggle: "#toggle"});
-  </script>
- <script src="/js/app.js" charset="utf-8"></script>
+<!--Sticky Footer-->
+<h3 class="text-center" id="sticky">5. Sticky Footer</h3>
+<div class="sticky-container">
+<div class="sticky-content text-center">Content</div>
+<div class="sticky-footer text-center">footer</div>
+</div>
+
+<script src="/js/app.js" charset="utf-8"></script>
   </body>
 </html>
