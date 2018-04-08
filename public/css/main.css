@@ -3,6 +3,19 @@ html,body{
     height: 100%;
 }
 
+#married-pic{
+  background-image:url('/images/married4.png');
+  background-image: no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height:100%;
+    width:100%;
+    border: 2px solid black;
+
+}
+
 h1, .nav-pills>li>a {
   color: #264653;
   text-transform: uppercase;
@@ -123,3 +136,5 @@ border: 1rem solid #E9C46A;
   color: #264653;
 background:  #2A9D8F;
 }
+
+/* new */
