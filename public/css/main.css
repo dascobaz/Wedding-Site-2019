@@ -137,4 +137,11 @@ border: 1rem solid #E9C46A;
 background:  #2A9D8F;
 }
 
-/* new */
+#story-background {
+  background-image:url('/images/married4.png');
+  background-image: no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
