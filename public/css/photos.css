@@ -1,0 +1,65 @@
+body {
+  background-color: #292b2c;
+  background-image: url('/images/flowers2.jpeg');
+}
+
+/* nav bar */
+.nav-pills>li{
+  background:#FFE1FF;
+  border: 1px solid white;
+
+}
+
+/* nav text  */
+.nav-pills>li.active>a{
+  background: #F4A261;
+  margin-bottom: 2%;
+}
+
+.nav-pills>li>a{
+  color: #264653;
+
+}
+/*COLUMNS WITH THE EQUAL HEIGHT (stories border)*/
+.container-flex, .container-order,.flex-center-center{
+  display:flex;
+  flex-direction: row;
+  align-items: stretch;
+  width: 100%;
+  background: pink;
+border: 1px solid black;
+  justify-content: space-around;
+  padding: 2rem;
+}
+
+/* end nav */
+
+.carousel-slide {
+  margin: auto;
+}
+
+.item {
+  height: 100vh;
+  margin-top: 1%;
+}
+
+.item img {
+  height: 90%!important;
+  margin: auto;
+}
+@media (max-width: 1000px) {
+  .item img {
+    height: 55%!important;
+    margin: auto;
+  }
+}
+@media (min-width: 50px) and (max-width: 1000px) {
+  .item img {
+    height: 55%!important;
+    margin: auto;
+  }
+}
+
+.carousel-control {
+  background : none!important;
+}
