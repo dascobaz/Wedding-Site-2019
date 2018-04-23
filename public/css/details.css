@@ -7,12 +7,34 @@ html,body{
 h1, .nav-pills>li>a {
   color: #264653;
   font-weight: bold;
+  font-size: 20px;
+  font-family: 'Pacifico', cursive;
 }
+
+@media (max-width: 1000px) {
+  h1, .nav-pills>li>a {
+    color: #264653;
+    font-weight: bold;
+    font-size: 50px;
+    font-family: 'Pacifico', cursive;
+  }
+  }
+}
+@media (min-width: 50px) and (max-width: 1000px) {
+  h1, .nav-pills>li>a {
+    color: #264653;
+    font-weight: bold;
+    font-size: 50px;
+    font-family: 'Pacifico', cursive;
+  }
+  }
+}
+
 h3 {
   color:#2A9D8F;
 }
 .nav-pills>li{
-  background:#E76F51;
+  background:lightpink;
 
 }
 .nav-pills>li.active>a{
@@ -26,21 +48,69 @@ h3 {
   display:flex;
   flex-direction: row;
   align-items: stretch;
-  with: 100%;
+  width: 100%;
   background: #F4A261;
   justify-content: space-around;
   padding: 2rem;
 }
+
 .box {
-  width:25%;
+  width:50%;
   background:black;
+  color: white;
+  font-size: 30px;
   padding: 1rem;
-  border: 1rem dashed #E9C46A;
+  border: 1rem solid #E9C46A;
+  text-align: center;
+  }
+}
+
+@media (max-width: 1000px) {
+  .box {
+    width:100%;
+    background:black;
+    padding: 1rem;
+    border: 1rem solid #E9C46A;
+  }
+}
+@media (min-width: 50px) and (max-width: 1000px) {
+  .box {
+    width:100%;
+    background:black;
+    padding: 1rem;
+    border: 1rem solid #E9C46A;
+  }
+}
+
+#timeAndDate{
+font-family: 'Pacifico', cursive;
+}
+
+#backgroundBox {
+  background-image: url('/images/beach-sunset.jpeg');
+  background-image: no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 #beach-wedding {
   background-image: url('/images/beach-wedding.jpg');
-  background-size: cover;
+  background-image: no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#pic1 {
+  background-image: url('/images/wedding-party.jpeg');
+  background-image: no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 /*order */
@@ -106,7 +176,7 @@ border: 1rem solid #E9C46A;
   display:flex;
   flex-direction:column;
   height: 90vh;
-  with: 100%;
+  width: 100%;
   background: #F4A261;
 }
 .sticky-content{
@@ -119,9 +189,15 @@ border: 1rem solid #E9C46A;
 .sticky-footer{
   flex: 0 0 auto;
   font-weight: bold;
-  font-size: 5rem;
+  /* font-size: 5rem; */
   color: #264653;
-background:  #2A9D8F;
+background: #70DBDB;
+font-family: 'Pacifico', cursive;
+border: 10px solid transparent;
+  padding: 15px;
+  -webkit-border-image: url('/images/stars.gif') 30 round; /* Safari 3.1-5*/
+  -o-border-image: url('/images/stars.gif') 30 round; /* Opera 11-12.1 */
+  border-image: url('/images/stars.gif') 30 round;
 }
 
 

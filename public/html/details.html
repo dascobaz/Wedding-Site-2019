@@ -3,40 +3,41 @@
   <head>
   <link rel="stylesheet" href="/css/details.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
   </head>
   <body>
-        <h1 class="text-center">5 flex-box tips you should know</h1>
 
+    <!--nav-->
     <ul class="nav nav-pills nav-justified">
-    <li role="presentation" class="active"><a href="#columns-equal">Columns Equal Height</a></li>
-    <li role="presentation"><a href="#order">Order</a></li>
-    <li role="presentation"><a href="#centering">Centering Aligment</a></li>
-    <li role="presentation"><a href="#responsive">Responsive Grid</a></li>
-    <li role="presentation"><a href="#sticky">Sticky Footer</a></li>
+      <li role="presentation"><a href="/html/home.html">Home</a></li>
+      <li role="presentation"><a href="/html/RSVP.html">RSVP</a></li>
+      <li role="presentation"><a href="/html/photos.html">Photos</a></li>
+     <li role="presentation"><a href="/html/details.html">Details</a></li>
+    <li role="presentation"><a href="/html/registry.html">Registry</a></li>
     </ul>
 
 
-    <h3 class="text-center" id="columns-equal">1. Columns with the equal height</h3>
+    <h3 class="text-center" id="columns-equal">Wedding Date & Time</h3>
+    <div class="container-flex" id='backgroundBox'>
+      <div class="box" id='timeAndDate'>
+         <h1>September 30th 2019</h1>
+         <h2>4:30 p.m.</h2>
 
-    <!--1. COLUMNS WITH THE EQUAL HEIGHT-->
-
-    <div class="container-flex">
-      <div class="box">Lorem ipsum dolor sit amet.</div>
-      <div class="box">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore velit autem, minima libero, sit a numquam mollitia quaerat deserunt quas tempora nulla fugit laborum, ex.</div>
-      <div class="box">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo illum necessitatibus a asperiores hic, fugit perferendis sit est excepturi quasi facilis voluptate aliquam dicta fuga facere alias distinctio corporis quas, natus ullam minima. Dicta pariatur aliquid optio esse veritatis. Sed officia, ab numquam fugiat error ratione ullam reprehenderit possimus, dolore blanditiis sequi, saepe minus vero.</div>
+       </div>
+      <!-- <div class="box"></div> -->
     </div>
 
     <!--2. COLUMNS WITH THE EQUAL HEIGHT-->
-    <h3 class="text-center" id="order">2. Order with flex-box</h3>
+    <!-- <h3 class="text-center" id="order">2. Order with flex-box</h3>
     <div class="container-order">
     <div class="box blue text-center">1</div>
     <div class="box breeze text-center">2</div>
     <div class="box yellow text-center">3</div>
-    </div>
+    </div> -->
 
 
     <!--2. Horizontal and vertical alignment-->
-    <h3 class="text-center" id="centering">Wedding Location</h3>
+    <h3 class="text-center" id="centering">Wedding Ceremony & Reception Location</h3>
     <div id='beach-wedding' class="flex-center-center">
     <div class="box">
       <!-- location -->
@@ -55,27 +56,33 @@
     </div>
 
     <!--Responsive Grid with flexbox-->
-    <h3 class="text-center" id="responsive">4. Responsive Grid with Flexbox</h3>
+    <!-- <h3 class="text-center" id="responsive">4. Responsive Grid with Flexbox</h3> -->
     <div class="container-flex responsive">
         <!-- This column 25% width -->
-     <div class="box col-1">25%</div>
+     <div id='pic1' class="box col-1">25%</div>
     <!-- This column 50% width -->
      <div class="box col-2">
-       <!-- daisypath -->
-     <a href="https://daisypath.com/"><img src="https://dwdf.daisypath.com/dQFSm4.png" width="100%" height="100" border="0" alt="Daisypath Wedding tickers" /></a>
+       khlikh
      </div>
      <!-- This column 25% width -->
      <div class="box col-1">25%</div>
     </div>
 
     <!--Sticky Footer-->
-    <h3 class="text-center" id="sticky">5. Sticky Footer</h3>
+    <!-- <h3 class="text-center" id="sticky">5. Sticky Footer</h3> -->
     <div class="sticky-container">
     <div class="sticky-content text-center"> khtdkhg
 
     </div>
-    <div class="sticky-footer text-center">footer</div>
+    <div class="sticky-footer text-center">
+      <p id= 'small-text'>Wedding Date Count Down</p>
+      <a href="https://daisypath.com/"><img src="https://dwdf.daisypath.com/dQFSm4.png" width="40%" height="100" border="0" alt="Daisypath Wedding tickers" /></a>
+<br>
+      <i class="fas fa-heart"></i>
+
+    </div>
     </div>
     <script src="/js/details.js" charset="utf-8"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
   </body>
 </html>

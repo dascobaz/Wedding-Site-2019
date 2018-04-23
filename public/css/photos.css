@@ -18,6 +18,9 @@ body {
 
 .nav-pills>li>a{
   color: #264653;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'Pacifico', cursive;
 
 }
 /*COLUMNS WITH THE EQUAL HEIGHT (stories border)*/

@@ -10,8 +10,11 @@ display: none;
 
 h1, .nav-pills>li>a {
   color: #264653;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-weight: bold;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'Pacifico', cursive;
 }
 h3 {
   color:#2A9D8F;
