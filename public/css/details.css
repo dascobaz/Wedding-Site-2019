@@ -58,7 +58,7 @@ h3 {
   width:50%;
   background:black;
   color: white;
-  font-size: 30px;
+  /* font-size: 30px; */
   padding: 1rem;
   border: 1rem solid #E9C46A;
   text-align: center;
@@ -105,7 +105,7 @@ font-family: 'Pacifico', cursive;
 }
 
 #pic1 {
-  background-image: url('/images/wedding-party.jpeg');
+  background-image: url('/images/don-.jpg');
   background-image: no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -113,11 +113,34 @@ font-family: 'Pacifico', cursive;
     background-size: cover;
 }
 
+#pic2 {
+  background-image: url('/images/men-colorful.jpg');
+  background-image: no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#pic3 {
+  background-image: url('/images/food-couple.jpg');
+  background-image: no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#pic1,#pic2,#pic3 {
+  color: white;
+}
+
 /*order */
 .container-order > .box{
   border: 1rem dashed #E76F51;
-  font-size: 4rem;
+  /* font-size: 4rem; */
   font-weight: bold;
+
 }
 .blue{
    order: 3;
@@ -149,9 +172,10 @@ font-family: 'Pacifico', cursive;
 /*responsive grig*/
 .responsive > .box {
   font-weight: bold;
-  font-size: 5rem;
+  /* font-size: 5rem; */
   color: #264653;
 border: 1rem solid #E9C46A;
+padding: 10%;
 }
 .col-1{
 	flex: 1;
