@@ -1,32 +1,56 @@
-/*cutsom styling*/
-html,body{
-    height: 100%;
-}
-
-#married-pic{
-  background-image:url('/images/married4.png');
-  background-image: no-repeat center center fixed;
+html, body, .page {
+  width: 100%;
+  height: 50%;
+  margin: 0;
+  padding: 0;
+  /* transition: all .6s cubic-bezier(.5, .2, .2, 1.1);
+  -webkit-transition: all .6s cubic-bezier(.5, .2, .2, 1.1);
+  -moz-transition: all .6s cubic-bezier(.5, .2, .2, 1.1);
+  -o-transition: all .6s cubic-bezier(.5, .2, .2, 1.1); */
+  /*color: #fff;*/
+  /* overflow-x:scroll; */
+  /* overflow-x: hidden; */
+  /* background-image: url('/images/stars.gif');background-image: no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
-    height:100%;
-    width:100%;
-    border: 2px solid black;
-
+    background-size: cover; */
+    position: fixed;
+    /* min-height: 500px; */
+     /* height: 100%; */
 }
 
 h1, .nav-pills>li>a {
   color: #264653;
-  text-transform: uppercase;
   font-weight: bold;
+  font-size: 20px;
+  font-family: 'Pacifico', cursive;
 }
+
+@media (max-width: 1000px) {
+  h1, .nav-pills>li>a {
+    color: #264653;
+    font-weight: bold;
+    font-size: 50px;
+    font-family: 'Pacifico', cursive;
+  }
+  }
+}
+@media (min-width: 50px) and (max-width: 1000px) {
+  h1, .nav-pills>li>a {
+    color: #264653;
+    font-weight: bold;
+    font-size: 50px;
+    font-family: 'Pacifico', cursive;
+  }
+  }
+}
+
 h3 {
   color:#2A9D8F;
-  text-transform: uppercase;
 }
 .nav-pills>li{
-  background:#E76F51;
+  background:lightpink;
 
 }
 .nav-pills>li.active>a{
@@ -35,113 +59,221 @@ h3 {
 .nav-pills>li>a{
   color: #264653;
 }
-/*COLUMNS WITH THE EQUAL HEIGHT*/
-.container-flex, .container-order,.flex-center-center{
-  display:flex;
-  flex-direction: row;
-  align-items: stretch;
-  with: 100%;
-  background: #F4A261;
-  justify-content: space-around;
-  padding: 2rem;
-}
-.box {
-  width:25%;
-  background:#E76F51;
-  padding: 1rem;
-  border: 1rem dashed #E9C46A;
+
+* {
+  font-family: 'open sans', 'lato', 'helvetica', sans-serif;
 }
 
-/*order */
-.container-order > .box{
-  border: 1rem dashed #E76F51;
-  font-size: 4rem;
-  font-weight: bold;
-}
-.blue{
-   order: 3;
-   background: #264653;
-}
-.breeze {
-    order: 2;
-    background:#2A9D8F;
-}
-.yellow{
-  order: 1;
-  background: #E9C46A;
+.page {
+  position: absolute;
 }
 
-/*Horizontal and vertical alignment*/
-.flex-center-center{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 90vh;
-}
-.flex-center-center > div{
-  width: 33%;
-  font-weight: bold;
-  font-size: 5rem;
-text-transform: uppercase;
-  color: #264653;
+/* #p2 {
+  left: 200%;
+} */
+
+/*p2*/
+
+
+/*rsvp header*/
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);
+
+/* #rsvpHeader {
+  background: hsla(0, 0%, 0%, .9);
+} */
+
+h2 {
+  color: hsla(0, 100%, 0%, .9);
+  font: normal Varela Round, sans-serif;
+  letter-spacing: 5px;
+  position: absolute;
+  top: 30%;
+  width: 100%;
+  animation: move linear 2000ms infinite;
 }
 
-/*responsive grig*/
-.responsive > .box {
-  font-weight: bold;
-  font-size: 5rem;
-  text-transform: uppercase;
-  color: #264653;
-border: 1rem solid #E9C46A;
-}
-.col-1{
-	flex: 1;
-}
-
-.col-2{
-	flex: 2;
-}
-
-@media (max-width: 800px){
-	.responsive{
-		flex-direction: column;
-    align-items:center;
-	}
-  .col-1, .col-2 {
-    width: 100%;
+@keyframes move {
+  0% {
+    text-shadow:
+      4px -4px 0 hsla(200, 100%, 50%, 1),
+      3px -3px 0 hsla(200, 100%, 50%, 1),
+      2px -2px 0 hsla(200, 0%, 50%, 1),
+      1px -1px 0 hsla(200, 100%, 50%, 1),
+      -4px 4px 0 hsla(300, 100%, 50%, 1),
+      -3px 3px 0 hsla(300, 0%, 50%, 1),
+      -2px 2px 0 hsla(300, 100%, 50%, 1),
+      -1px 1px 0 hsla(300, 100%, 50%, 1)
+    ;
+  }
+  25% {
+    text-shadow:
+      -4px -4px 0 hsla(300, 0%, 50%, 1),
+      -3px -3px 0 hsla(300, 100%, 50%, 1),
+      -2px -2px 0 hsla(300, 100%, 50%, 1),
+      -1px -1px 0 hsla(300, 100%, 50%, 1),
+      4px 4px 0 hsla(290, 0%, 50%, 1),
+      3px 3px 0 hsla(290, 100%, 50%, 1),
+      2px 2px 0 hsla(290, 100%, 50%, 1),
+      1px 1px 0 hsla(290, 0%, 50%, 1)
+    ;
+  }
+  50% {
+    text-shadow:
+      -4px 4px 0 hsla(300, 100%, 50%, 1),
+      -3px 3px 0 hsla(300, 100%, 50%, 1),
+      -2px 2px 0 hsla(300, 100%, 50%, 1),
+      -1px 1px 0 hsla(300, 100%, 50%, 1),
+      4px -4px 0 hsla(280, 100%, 50%, 1),
+      3px -3px 0 hsla(280, 100%, 50%, 1),
+      2px -2px 0 hsla(280, 100%, 50%, 1),
+      1px -1px 0 hsla(280, 0%, 0%, 1)
+    ;
+  }
+  75% {
+    text-shadow:
+      4px 4px 0 hsla(200, 0%, 50%, 1),
+      3px 3px 0 hsla(200, 100%, 50%, 1),
+      2px 2px 0 hsla(200, 0%, 50%, 1),
+      1px 1px 0 hsla(200, 100%, 50%, 1),
+      -4px -4px 0 hsla(300, 100%, 50%, 1),
+      -3px -3px 0 hsla(280, 100%, 50%, 1),
+      -2px -2px 0 hsla(280, 100%, 50%, 1),
+      -1px -1px 0 hsla(290, 0%, 50%, 1)
+    ;
+  }
+  100% {
+    text-shadow:
+      4px -4px 0 hsla(300, 0%, 50%, 0),
+      3px -3px 0 hsla(300, 100%, 50%, 1),
+      2px -2px 0 hsla(300, 0%, 0%, 1),
+      1px -1px 0 hsla(300, 100%, 50%, 1),
+      -4px 4px 0 hsla(300, 0%, 50%, 1),
+      -3px 3px 0 hsla(300, 100%, 50%, 1),
+      -2px 2px 0 hsla(300, 0%, 50%, 1),
+      -1px 1px 0 hsla(300, 100%, 50%, 1)
+    ;
   }
 }
 
-/*sticky footer*/
-.sticky-container{
-  display:flex;
-  flex-direction:column;
-  height: 90vh;
-  with: 100%;
-  background: #F4A261;
-}
-.sticky-content{
-  flex: 1 0 auto;
-  font-weight: bold;
-  font-size: 5rem;
-  text-transform: uppercase;
-  color: #264653;
-  border: 1rem dashed #E76F51;
-}
-.sticky-footer{
-  flex: 0 0 auto;
-  font-weight: bold;
-  font-size: 5rem;
-  text-transform: uppercase;
-  color: #264653;
-background:  #2A9D8F;
-}
-
-#story-background {
-  background-image:url('/images/married4.png');
+/* canvas moving background */
+/* #prettyBox{
+  width: 100%;
+  height: 100%;
+  background-image: url('/images/fromeFlowers.png');
   background-image: no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+  position: fixed;
+  top: 50%;
+  left: 50%; */
+  /* bring your own prefixes */
+  /* transform: translate(-55%, -55%);
+} */
+
+canvas {
+  background-color: silver;
+  background-image: url('/images/fromeFlowers.png');
+  background-image: no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#bg {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+}
+
+#bg canvas {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/*envelope*/
+#envelope  {
+  background: #f08080;
+   width: 300px;
+   height: 150px;
+   position: absolute;
+   left: 50%;
+   top: 65%;
+   margin-left: -150px;
+   margin-top: -0px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.5);
+}
+
+#lid {
+
+  position: relative;
+  top: -150px;
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 0 150px 150px 150px;
+  border-color: transparent transparent #f08080 transparent;
+}
+
+
+#letter {
+  position: relative;
+  background: #adbce6;
+  background-image: url('/images/purple.jpg');
+  background-image: no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  top: -150px;
+  width: 280px;
+  height: 150px;
+  left: 10px;
+  top: -200px;
+  animation: out 5s infinite linear;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+  text-align: center;
+  font-style: italic;
+  font-size: 20px;
+}
+
+
+#left-corner {
+  position: relative;
+  top: -315px;
+  left: 10px;
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 150px 0 0 250px;
+  border-color: transparent transparent transparent #f08080;
+
+}
+
+#right-corner {
+  position: relative;
+  top: -470px;
+  left: 50px;
+  width: 0px;
+height: 0px;
+border-style: solid;
+border-width: 0 0 150px 250px;
+border-color: transparent transparent #f08080 transparent;
+}
+
+@keyframes out {
+	0% {top: -200px;}
+  25% {top: -300px;}
+  50% {top: -200px;}
+  75% {top: -300px;}
 }
