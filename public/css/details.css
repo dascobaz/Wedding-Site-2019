@@ -66,16 +66,18 @@ h3 {
 }
 
 @media (max-width: 1000px) {
-  .box {
-    width:100%;
+  #address {
+    width:75%;
+    height: 50%;
     background:black;
     padding: 1rem;
     border: 1rem solid #E9C46A;
   }
 }
 @media (min-width: 50px) and (max-width: 1000px) {
-  .box {
-    width:100%;
+  #address {
+    width:75%;
+    height: 50%;
     background:black;
     padding: 1rem;
     border: 1rem solid #E9C46A;
@@ -93,6 +95,10 @@ font-family: 'Pacifico', cursive;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    border: 2px solid lightpink;
+    -webkit-box-shadow: 0px 2px 40px 1px rgba(0,0,0,0.48);
+-moz-box-shadow: 0px 2px 40px 1px rgba(0,0,0,0.48);
+box-shadow: 0px 2px 40px 1px rgba(0,0,0,0.48);
 }
 
 #beach-wedding {
@@ -102,6 +108,18 @@ font-family: 'Pacifico', cursive;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+      border: 2px solid lightpink;
+    -webkit-box-shadow: 0px 2px 40px 1px rgba(0,0,0,0.48);
+-moz-box-shadow: 0px 2px 40px 1px rgba(0,0,0,0.48);
+box-shadow: 0px 2px 40px 1px rgba(0,0,0,0.48);
+}
+
+
+.container-flex,.responsive{
+  -webkit-box-shadow: 0px 2px 40px 1px rgba(0,0,0,0.48);
+  -moz-box-shadow: 0px 2px 40px 1px rgba(0,0,0,0.48);
+  box-shadow: 0px 2px 40px 1px rgba(0,0,0,0.48);
+    border: 2px solid lightpink;
 }
 
 #pic1 {
@@ -114,7 +132,7 @@ font-family: 'Pacifico', cursive;
 }
 
 #pic2 {
-  background-image: url('/images/men-colorful.jpg');
+  background-image: url('/images/Caddys.jpg');
   background-image: no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -123,12 +141,24 @@ font-family: 'Pacifico', cursive;
 }
 
 #pic3 {
-  background-image: url('/images/food-couple.jpg');
+  background-image: url('/images/beach-wedding-photo.jpeg');
   background-image: no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+#backgrounds {
+  border-radius: 10px;
+  background: orange;
+   border: 12px solid orange;
+   font-size: 20px;
+}
+
+#backgrounds:hover{
+  background-color: yellow;
+  border: 12px solid yellow;
 }
 
 #pic1,#pic2,#pic3 {
@@ -137,12 +167,13 @@ font-family: 'Pacifico', cursive;
 
 /*order */
 .container-order > .box{
-  border: 1rem dashed #E76F51;
+  /* border: 1rem solid lightpink; */
   /* font-size: 4rem; */
   font-weight: bold;
 
+
 }
-.blue{
+/* .blue{
    order: 3;
    background: #264653;
 }
@@ -153,7 +184,7 @@ font-family: 'Pacifico', cursive;
 .yellow{
   order: 1;
   background: #E9C46A;
-}
+} */
 
 /*Horizontal and vertical alignment*/
 .flex-center-center{
@@ -161,11 +192,12 @@ font-family: 'Pacifico', cursive;
     align-items: center;
     justify-content: center;
     height: 90vh;
+
 }
 .flex-center-center > div{
   width: 33%;
   font-weight: bold;
-  font-size: 5rem;
+  /* font-size: 5rem; */
   color: #264653;
 }
 
@@ -199,16 +231,25 @@ padding: 10%;
 .sticky-container{
   display:flex;
   flex-direction:column;
-  height: 90vh;
+  height: auto;
   width: 100%;
   background: #F4A261;
+  -webkit-box-shadow: 0px 2px 40px 1px rgba(0,0,0,0.48);
+  -moz-box-shadow: 0px 2px 40px 1px rgba(0,0,0,0.48);
+  box-shadow: 0px 2px 40px 1px rgba(0,0,0,0.48);
+
 }
+
+ul {
+list-style-type: none;
+}
+
 .sticky-content{
   flex: 1 0 auto;
   font-weight: bold;
-  font-size: 5rem;
-  color: #264653;
-  border: 1rem dashed #E76F51;
+  /* font-size: 5rem; */
+  /* color: #264653; */
+  border: 2px solid lightpink;
 }
 .sticky-footer{
   flex: 0 0 auto;
@@ -229,4 +270,93 @@ border: 10px solid transparent;
   #map {
     height: 200px;
     width: 100%;
+   }
+
+   @media (max-width: 1000px) {
+     #map {
+       height: 500px;
+       width: 100%;
+     }
+   }
+   @media (min-width: 50px) and (max-width: 1000px) {
+     #map {
+       height: 500px;
+       width: 100%;
+     }
+   }
+
+   #Itinerary {
+     background-image: url('/images/pink-board.jpeg');
+     background-image: no-repeat center center fixed;
+       -webkit-background-size: cover;
+       -moz-background-size: cover;
+       -o-background-size: cover;
+       background-size: cover;
+       color: #264653;
+       font-weight: bold;
+       padding: 2%;
+   }
+
+   @media (max-width: 1000px) {
+     #Itinerary {
+       background-image: url('/images/pink-board.jpeg');
+       background-image: no-repeat center center fixed;
+         -webkit-background-size: cover;
+         -moz-background-size: cover;
+         -o-background-size: cover;
+         background-size: cover;
+         color: #264653;
+         font-weight: bold;
+         padding: 2%;
+        font-size: 20px;
+     }
+   }
+   @media (min-width: 50px) and (max-width: 1000px) {
+     #Itinerary {
+       background-image: url('/images/pink-board.jpeg');
+       background-image: no-repeat center center fixed;
+         -webkit-background-size: cover;
+         -moz-background-size: cover;
+         -o-background-size: cover;
+         background-size: cover;
+         color: #264653;
+         font-weight: bold;
+         padding: 2%;
+         font-size: 20px;
+     }
+   }
+
+   .title {
+     text-shadow: 1px 1px 10px rgba(150, 150, 255, 1);
+   }
+
+   /* carousel */
+   .carousel-slide {
+     margin: auto;
+   }
+
+   .item {
+     height: 100vh;
+     margin-top: 1%;
+   }
+
+   .item img {
+     height: 90%!important;
+     margin: auto;
+   }
+   @media (max-width: 1000px) {
+     .item img {
+       height: 55%!important;
+       margin: auto;
+     }
+   }
+   @media (min-width: 50px) and (max-width: 1000px) {
+     .item img {
+       height: 55%!important;
+       margin: auto;
+     }
+   }
+
+   .carousel-control {
+     background : none!important;
    }
