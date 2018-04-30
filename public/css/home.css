@@ -360,12 +360,17 @@ h1,  {
 /* google map */
   #map {
     height: 200px;
-    width: 100%;
+    width: 80%;
     border: 1px solid orange;
+    margin: 0px;
+    display:block;
+    margin: 0 auto; display:block; text-align: center;
+    bottom: 5px; 
    }
 
    #myMap{
      border: 1px solid black;
      background-color: lightblue;
      font-weight: bold;
+
    }
