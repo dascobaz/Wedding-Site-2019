@@ -4,25 +4,41 @@ body {
 }
 
 /* nav bar */
-.nav-pills>li{
-  background:lavender;
-  border: 1px solid white;
-  font-family: 'Pacifico', cursive;
+h1, .nav-pills>li>a {
+  color: #264653;
+  font-size: 30px;
+  font-family: 'Black And White Picture', sans-serif;
+}
 
+@media (max-width: 1000px) {
+  h1, .nav-pills>li>a {
+    color: #264653;
+    font-size: 50px;
+    font-family: 'Black And White Picture', sans-serif;
+  }
+}
+@media (min-width: 50px) and (max-width: 1000px) {
+  h1, .nav-pills>li>a {
+    color: #264653;
+    font-size: 50px;
+    font-family: 'Black And White Picture', sans-serif;
+  }
+}
+
+/* nav bar */
+.nav-pills>li{
+  background:#FFE1FF;
+  border: 1px solid white;
 }
 
 /* nav text  */
 .nav-pills>li.active>a{
-  background: purple;
-  margin-bottom: 2%;
-  font-family: 'Pacifico', cursive;
+  background: #F4A261;
 }
 
 .nav-pills>li>a{
   color: #264653;
-  font-weight: bold;
-  font-size: 20px;
-  font-family: 'Pacifico', cursive;
+}
 
 }
 /*COLUMNS WITH THE EQUAL HEIGHT (stories border)*/

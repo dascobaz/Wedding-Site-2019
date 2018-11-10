@@ -8,20 +8,36 @@ h1, .nav-pills>li>a {
   color: #264653;
   font-size: 30px;
   font-family: 'Black And White Picture', sans-serif;
-
 }
 
 @media (max-width: 1000px) {
   h1, .nav-pills>li>a {
     color: #264653;
     font-size: 50px;
+    font-family: 'Black And White Picture', sans-serif;
   }
 }
 @media (min-width: 50px) and (max-width: 1000px) {
   h1, .nav-pills>li>a {
     color: #264653;
     font-size: 50px;
+    font-family: 'Black And White Picture', sans-serif;
   }
+}
+
+/* nav bar */
+.nav-pills>li{
+  background:#FFE1FF;
+  border: 1px solid white;
+}
+
+/* nav text  */
+.nav-pills>li.active>a{
+  background: #F4A261;
+}
+
+.nav-pills>li>a{
+  color: #264653;
 }
 
 #main-title {
@@ -31,18 +47,18 @@ h1, .nav-pills>li>a {
 
 
 .header {
-  font-family: 'Black And White Picture', sans-serif;
+  font-family: 'Merriweather', serif;
   font-size: 30px;
 }
 
 .titles {
-  font-family: 'Anton', sans-serif;
+  font-family: 'Merriweather', serif;
   text-shadow: 1px 1px 10px rgba(150, 150, 255, 1);
 }
 
 
 
-#header-pic {
+/* #header-pic {
   background-image: url('/images/rainbowSprings.png');
   background-image: no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -60,7 +76,7 @@ h1, .nav-pills>li>a {
     -webkit-box-shadow: 0px 2px 40px 1px rgba(0,0,0,0.48);
     -moz-box-shadow: 0px 2px 40px 1px rgba(0,0,0,0.48);
     box-shadow: 0px 2px 40px 1px rgba(0,0,0,0.48);
-}
+} */
 
 @media (max-width: 1000px) {
 #header-pic {
@@ -72,7 +88,7 @@ h1, .nav-pills>li>a {
     background-size: cover;
     max-height:50%;
     max-width:100%;
-    border: 2px solid black;
+    border: 2px solid lightpink;
   }
 }
 @media (min-width: 50px) and (max-width: 1000px) {
@@ -85,29 +101,13 @@ h1, .nav-pills>li>a {
       background-size: cover;
       max-height:50%;
       max-width:100%;
-      border: 3px solid black;
+      border: 3px solid lightpink;
       -webkit-box-shadow: 0px 2px 40px 1px rgba(0,0,0,0.48);
       -moz-box-shadow: 0px 2px 40px 1px rgba(0,0,0,0.48);
       box-shadow: 0px 2px 40px 1px rgba(0,0,0,0.48);
   }
 }
 
-
-/* nav bar */
-.nav-pills>li{
-  background:#FFE1FF;
-  border: 1px solid white;
-
-}
-
-/* nav text  */
-.nav-pills>li.active>a{
-  background: #F4A261;
-}
-
-.nav-pills>li>a{
-  color: #264653;
-}
 /*COLUMNS WITH THE EQUAL HEIGHT (stories border)*/
 .container-flex, .container-order,.flex-center-center{
   display:flex;
@@ -118,7 +118,7 @@ h1, .nav-pills>li>a {
   /* background-image: url('/images/wall-vines.jpeg'); */
   background-repeat: no-repeat;
   background-size: cover;
-border: 1px solid black;
+border: 1px solid lightpink;
   justify-content: space-around;
   padding: 2rem;
   -webkit-box-shadow: 0px 2px 40px 1px rgba(0,0,0,0.48);
@@ -127,7 +127,7 @@ border: 1px solid black;
 }
 
 #wedding-party-box{
-  background-image: url('/images/white-wedding-flowers.jpg');
+  background-image: url('/images/cherry-blossom.jpeg');
 }
 
 /* stories background */
@@ -277,14 +277,18 @@ border: 1rem solid white;
   font-weight: bold;
   font-size: 5rem;
   color: #264653;
-  border: 5px solid white;
+  border: 2px solid lightpink;
   background-image: url('/images/white-wedding-flowers.jpg');
   background-image: no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    -webkit-box-shadow: 0px 2px 40px 1px rgba(0,0,0,0.48);
+    -moz-box-shadow: 0px 2px 40px 1px rgba(0,0,0,0.48);
+    box-shadow: 0px 2px 40px 1px rgba(0,0,0,0.48);
 }
+
 .sticky-footer{
   flex: 0 0 auto;
   font-weight: bold;
@@ -333,9 +337,9 @@ h2, h3, h4 {
   -webkit-box-shadow: 2px 0px 113px 0px rgba(138,90,138,1);
   -moz-box-shadow: 2px 0px 113px 0px rgba(138,90,138,1);
   box-shadow: 2px 0px 113px 0px rgba(138,90,138,1);
-  border: 2px dashed purple;
-  height: 100%;
-  width: 55%
+  border: 2px solid white;
+  height: 75%;
+  width: 50%
 
 }
 
@@ -403,14 +407,14 @@ h1,  {
     bottom: 5px;
    }
 
-   #myMap{
-     border: 1px solid black;
+   /* #myMap{
+     border: 1px solid lightpink;
      background-color: lightblue;
      font-weight: bold;
      -webkit-box-shadow: 0px 2px 40px 1px rgba(0,0,0,0.48);
      -moz-box-shadow: 0px 2px 40px 1px rgba(0,0,0,0.48);
      box-shadow: 0px 2px 40px 1px rgba(0,0,0,0.48);
-   }
+   } */
 
    .container-flex,.responsive{
      -webkit-box-shadow: 0px 2px 40px 1px rgba(0,0,0,0.48);

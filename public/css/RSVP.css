@@ -9,23 +9,36 @@ display: none;
 
 h1, .nav-pills>li>a {
   color: #264653;
-  /* text-transform: uppercase; */
-  font-weight: bold;
-  font-weight: bold;
-  font-size: 20px;
-  font-family: 'Pacifico', cursive;
+  font-size: 30px;
+  font-family: 'Black And White Picture', sans-serif;
 }
-h3 {
-  color:#2A9D8F;
-  text-transform: uppercase;
-}
-.nav-pills>li{
-  background:lightblue;
 
+@media (max-width: 1000px) {
+  h1, .nav-pills>li>a {
+    color: #264653;
+    font-size: 50px;
+    font-family: 'Black And White Picture', sans-serif;
+  }
 }
+@media (min-width: 50px) and (max-width: 1000px) {
+  h1, .nav-pills>li>a {
+    color: #264653;
+    font-size: 50px;
+    font-family: 'Black And White Picture', sans-serif;
+  }
+}
+
+/* nav bar */
+.nav-pills>li{
+  background:#FFE1FF;
+  border: 1px solid white;
+}
+
+/* nav text  */
 .nav-pills>li.active>a{
   background: #F4A261;
 }
+
 .nav-pills>li>a{
   color: #264653;
 }
