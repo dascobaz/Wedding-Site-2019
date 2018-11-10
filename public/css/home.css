@@ -6,22 +6,21 @@ html,body{
 /* nav & title */
 h1, .nav-pills>li>a {
   color: #264653;
-  font-size: 20px;
-  font-family: 'Pacifico', cursive;
+  font-size: 30px;
+  font-family: 'Black And White Picture', sans-serif;
+
 }
 
 @media (max-width: 1000px) {
   h1, .nav-pills>li>a {
     color: #264653;
     font-size: 50px;
-    font-family: 'Pacifico', cursive;
   }
 }
 @media (min-width: 50px) and (max-width: 1000px) {
   h1, .nav-pills>li>a {
     color: #264653;
     font-size: 50px;
-    font-family: 'Pacifico', cursive;
   }
 }
 
@@ -32,8 +31,16 @@ h1, .nav-pills>li>a {
 
 
 .header {
-  font-family: 'Pacifico', cursive;
+  font-family: 'Black And White Picture', sans-serif;
+  font-size: 30px;
 }
+
+.titles {
+  font-family: 'Anton', sans-serif;
+  text-shadow: 1px 1px 10px rgba(150, 150, 255, 1);
+}
+
+
 
 #header-pic {
   background-image: url('/images/rainbowSprings.png');
@@ -50,6 +57,9 @@ h1, .nav-pills>li>a {
       -o-border-image: url('/images/stars.gif') 30 round; /* Opera 11-12.1 */
       border-image: url('/images/stars.gif') 30 round;
     cursor: url('/images/heart-small.png'), auto;
+    -webkit-box-shadow: 0px 2px 40px 1px rgba(0,0,0,0.48);
+    -moz-box-shadow: 0px 2px 40px 1px rgba(0,0,0,0.48);
+    box-shadow: 0px 2px 40px 1px rgba(0,0,0,0.48);
 }
 
 @media (max-width: 1000px) {
@@ -75,7 +85,10 @@ h1, .nav-pills>li>a {
       background-size: cover;
       max-height:50%;
       max-width:100%;
-      border: 2px solid black;
+      border: 3px solid black;
+      -webkit-box-shadow: 0px 2px 40px 1px rgba(0,0,0,0.48);
+      -moz-box-shadow: 0px 2px 40px 1px rgba(0,0,0,0.48);
+      box-shadow: 0px 2px 40px 1px rgba(0,0,0,0.48);
   }
 }
 
@@ -101,10 +114,20 @@ h1, .nav-pills>li>a {
   flex-direction: row;
   align-items: stretch;
   width: 100%;
-  background: pink;
+  background: lightgrey;
+  /* background-image: url('/images/wall-vines.jpeg'); */
+  background-repeat: no-repeat;
+  background-size: cover;
 border: 1px solid black;
   justify-content: space-around;
   padding: 2rem;
+  -webkit-box-shadow: 0px 2px 40px 1px rgba(0,0,0,0.48);
+  -moz-box-shadow: 0px 2px 40px 1px rgba(0,0,0,0.48);
+  box-shadow: 0px 2px 40px 1px rgba(0,0,0,0.48);
+}
+
+#wedding-party-box{
+  background-image: url('/images/white-wedding-flowers.jpg');
 }
 
 /* stories background */
@@ -112,6 +135,9 @@ border: 1px solid black;
   width:25%;
   background:#CDB5CD;
   padding: 1rem;
+  -webkit-box-shadow: 0px 2px 40px 1px rgba(0,0,0,0.48);
+  -moz-box-shadow: 0px 2px 40px 1px rgba(0,0,0,0.48);
+  box-shadow: 0px 2px 40px 1px rgba(0,0,0,0.48);
 }
 
 /*order wedding party*/
@@ -124,11 +150,17 @@ border: 1px solid black;
   border: 1px solid white;
   background-image: url('/images/white-sparkle.png');
   cursor: url('/images/heart-small.png'), auto;
+  -webkit-box-shadow: 0px 2px 40px 1px rgba(0,0,0,0.48);
+  -moz-box-shadow: 0px 2px 40px 1px rgba(0,0,0,0.48);
+  box-shadow: 0px 2px 40px 1px rgba(0,0,0,0.48);
 }
 
 .container-order > .box{
   font-size: 4rem;
   font-weight: bold;
+  -webkit-box-shadow: 0px 2px 40px 1px rgba(0,0,0,0.48);
+  -moz-box-shadow: 0px 2px 40px 1px rgba(0,0,0,0.48);
+  box-shadow: 0px 2px 40px 1px rgba(0,0,0,0.48);
 }
 .pink{
   order: 4;
@@ -195,6 +227,9 @@ border: 1px solid black;
     align-items: center;
     justify-content: center;
     height: 90vh;
+    -webkit-box-shadow: 0px 2px 40px 1px rgba(0,0,0,0.48);
+    -moz-box-shadow: 0px 2px 40px 1px rgba(0,0,0,0.48);
+    box-shadow: 0px 2px 40px 1px rgba(0,0,0,0.48);
 }
 .flex-center-center > div{
   width: 33%;
@@ -372,5 +407,13 @@ h1,  {
      border: 1px solid black;
      background-color: lightblue;
      font-weight: bold;
+     -webkit-box-shadow: 0px 2px 40px 1px rgba(0,0,0,0.48);
+     -moz-box-shadow: 0px 2px 40px 1px rgba(0,0,0,0.48);
+     box-shadow: 0px 2px 40px 1px rgba(0,0,0,0.48);
+   }
 
+   .container-flex,.responsive{
+     -webkit-box-shadow: 0px 2px 40px 1px rgba(0,0,0,0.48);
+     -moz-box-shadow: 0px 2px 40px 1px rgba(0,0,0,0.48);
+     box-shadow: 0px 2px 40px 1px rgba(0,0,0,0.48);
    }

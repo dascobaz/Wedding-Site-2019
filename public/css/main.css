@@ -50,7 +50,7 @@ h3 {
   color:#2A9D8F;
 }
 .nav-pills>li{
-  background:lightpink;
+  background:lightblue;
 
 }
 .nav-pills>li.active>a{
@@ -67,6 +67,7 @@ h3 {
 .page {
   position: absolute;
 }
+
 
 /* #p2 {
   left: 200%;
@@ -174,7 +175,7 @@ h2 {
 
 canvas {
   background-color: silver;
-  background-image: url('/images/fromeFlowers.png');
+  background-image: url('/images/beach.jpeg');
   background-image: no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -202,6 +203,7 @@ canvas {
 /*envelope*/
 #envelope  {
   background: #f08080;
+  background-image: url('/images/gold.jpeg');
    width: 300px;
    height: 150px;
    position: absolute;
@@ -215,21 +217,21 @@ canvas {
 }
 
 #lid {
-
+  border-color: transparent transparent #f08080 transparent;
+  border-image: url('/images/gold.jpeg');
   position: relative;
   top: -150px;
   width: 0px;
   height: 0px;
   border-style: solid;
   border-width: 0 150px 150px 150px;
-  border-color: transparent transparent #f08080 transparent;
 }
 
 
 #letter {
   position: relative;
   background: #adbce6;
-  background-image: url('/images/purple.jpg');
+  background-image: url('/images/weddingInvite.png');
   background-image: no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -237,7 +239,7 @@ canvas {
   background-size: cover;
   top: -150px;
   width: 280px;
-  height: 150px;
+  height: 180px;
   left: 10px;
   top: -200px;
   animation: out 5s infinite linear;
@@ -250,25 +252,26 @@ canvas {
 
 #left-corner {
   position: relative;
-  top: -315px;
+  top: -335px;
   left: 10px;
   width: 0px;
   height: 0px;
   border-style: solid;
   border-width: 150px 0 0 250px;
   border-color: transparent transparent transparent #f08080;
-
+  border-image: url('/images/gold.jpeg');
 }
 
 #right-corner {
   position: relative;
-  top: -470px;
+  top: -480px;
   left: 50px;
   width: 0px;
 height: 0px;
 border-style: solid;
 border-width: 0 0 150px 250px;
 border-color: transparent transparent #f08080 transparent;
+border-image: url('/images/gold.jpeg');
 }
 
 @keyframes out {
