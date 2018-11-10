@@ -255,7 +255,7 @@ border: 1rem solid white;
   font-weight: bold;
   color: #264653;
 background:  #2A9D8F;
-font-family: 'Pacifico', cursive;
+/* font-family: 'Pacifico', cursive; */
 border: 10px solid transparent;
   padding: 15px;
   -webkit-border-image: url('/images/stars.gif') 30 round; /* Safari 3.1-5*/
@@ -365,7 +365,7 @@ h1,  {
     margin: 0px;
     display:block;
     margin: 0 auto; display:block; text-align: center;
-    bottom: 5px; 
+    bottom: 5px;
    }
 
    #myMap{
