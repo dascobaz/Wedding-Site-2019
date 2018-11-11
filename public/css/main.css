@@ -192,11 +192,11 @@ canvas {
 #envelope  {
   background: #D4AF37;
   /* background-image: url('/images/gold.jpeg'); */
-   width: 300px;
-   height: 150px;
+   width: 500px;
+   height: 250px;
    position: absolute;
-   left: 50%;
-   top: 65%;
+   left: 40%;
+   top: 50%;
    margin-left: -150px;
    margin-top: -0px;
   border-bottom-left-radius: 20px;
@@ -211,7 +211,7 @@ canvas {
   width: 0px;
   height: 0px;
   border-style: solid;
-  border-width: 0 150px 150px 150px;
+  border-width: 0 250px 150px 250px;
 }
 
 
@@ -225,9 +225,9 @@ canvas {
   -o-background-size: cover;
   background-size: cover;
   top: -150px;
-  width: 280px;
-  height: 180px;
-  left: 10px;
+  width: 450px;
+  height: 250px;
+  left: 25px;
   top: -200px;
   animation: out 20s infinite linear;
   box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
@@ -239,24 +239,24 @@ canvas {
 
 #left-corner {
   position: relative;
-  top: -335px;
-  left: 10px;
+  top: -400px;
+  left: -0px;
   width: 0px;
   height: 0px;
   border-style: solid;
-  border-width: 150px 0 0 250px;
+  border-width: 200px 0 0 350px;
   border-color: transparent transparent transparent #D4AF37;
   /* border-image: url('/images/gold.jpeg'); */
 }
 
 #right-corner {
   position: relative;
-  top: -480px;
-  left: 50px;
+  top: -600px;
+  left: 150px;
   width: 0px;
 height: 0px;
 border-style: solid;
-border-width: 0 0 150px 250px;
+border-width: 0 0 200px 350px;
 border-color: transparent transparent #D4AF37 transparent;
 /* border-image: url('/images/gold.jpeg'); */
 }
