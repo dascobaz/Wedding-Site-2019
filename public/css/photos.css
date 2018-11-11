@@ -40,7 +40,6 @@ h1, .nav-pills>li>a {
   color: #264653;
 }
 
-}
 /*COLUMNS WITH THE EQUAL HEIGHT (stories border)*/
 .container-flex, .container-order,.flex-center-center{
   display:flex;

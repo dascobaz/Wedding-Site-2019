@@ -58,8 +58,8 @@ h1, .nav-pills>li>a {
 
 
 
-/* #header-pic {
-  background-image: url('/images/rainbowSprings.png');
+#header-pic {
+  background-image: url('/images/paper-gold.jpg');
   background-image: no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -67,33 +67,31 @@ h1, .nav-pills>li>a {
     background-size: cover;
     max-height:100%;
     max-width:100%;
-    border: 20px solid transparent;
+    /* border: 20px solid transparent; */
       padding: 15px;
-      -webkit-border-image: url('/images/stars.gif') 30 round; /* Safari 3.1-5 */
-      -o-border-image: url('/images/stars.gif') 30 round; /* Opera 11-12.1 */
-      border-image: url('/images/stars.gif') 30 round;
+      /* -webkit-border-image: url('/images/stars.gif') 30 round; /* Safari 3.1-5
+      -o-border-image: url('/images/stars.gif') 30 round; /* Opera 11-12.1 */ */
+      /* border-image: url('/images/stars.gif') 30 round; */
     cursor: url('/images/heart-small.png'), auto;
-    -webkit-box-shadow: 0px 2px 40px 1px rgba(0,0,0,0.48);
+    /* -webkit-box-shadow: 0px 2px 40px 1px rgba(0,0,0,0.48);
     -moz-box-shadow: 0px 2px 40px 1px rgba(0,0,0,0.48);
-    box-shadow: 0px 2px 40px 1px rgba(0,0,0,0.48);
-} */
+    box-shadow: 0px 2px 40px 1px rgba(0,0,0,0.48); */
+}
 
 @media (max-width: 1000px) {
 #header-pic {
-  background-image: url('/images/stars.gif');
+  background-image: url('/images/white-sparkle.png'); 
   background-image: no-repeat center center fixed;
-    -webkit-background-size: cover;
+     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    max-height:50%;
+     max-height:50%;
     max-width:100%;
-    border: 2px solid lightpink;
   }
 }
 @media (min-width: 50px) and (max-width: 1000px) {
   #header-pic {
-    background-image: url('/images/stars.gif');
     background-image: no-repeat center center fixed;
       -webkit-background-size: cover;
       -moz-background-size: cover;
@@ -101,10 +99,10 @@ h1, .nav-pills>li>a {
       background-size: cover;
       max-height:50%;
       max-width:100%;
-      border: 3px solid lightpink;
+      /* border: 3px solid lightpink;
       -webkit-box-shadow: 0px 2px 40px 1px rgba(0,0,0,0.48);
       -moz-box-shadow: 0px 2px 40px 1px rgba(0,0,0,0.48);
-      box-shadow: 0px 2px 40px 1px rgba(0,0,0,0.48);
+      box-shadow: 0px 2px 40px 1px rgba(0,0,0,0.48); */
   }
 }
 
@@ -127,7 +125,7 @@ border: 1px solid lightpink;
 }
 
 #wedding-party-box{
-  background-image: url('/images/cherry-blossom.jpeg');
+  background-image: url('/images/gold.jpeg');
 }
 
 /* stories background */
@@ -319,7 +317,7 @@ h2, h3, h4 {
 
 
 
-@media (max-width: 300px) {
+/* @media (max-width: 300px) {
   #header-pic {
     background-color: black;
     background-image: url("/images/piano-cut.png");
@@ -328,9 +326,9 @@ h2, h3, h4 {
 @media (min-width: 101px) and (max-width: 600px) {
   #header-pic {
     background-color: black;
-    background-image:url("/images/piano-cut.png");
+    background-image:url("/images/paper-gold.jpg");
   }
-}
+} */
 
 #rainbow-springs {
   border-radius: 55px;
@@ -339,7 +337,7 @@ h2, h3, h4 {
   box-shadow: 2px 0px 113px 0px rgba(138,90,138,1);
   border: 2px solid white;
   height: 75%;
-  width: 50%
+  width: 48%
 
 }
 
@@ -349,18 +347,18 @@ h2, h3, h4 {
   -webkit-box-shadow: 2px 0px 113px 0px rgba(138,90,138,1);
   -moz-box-shadow: 2px 0px 113px 0px rgba(138,90,138,1);
   box-shadow: 2px 0px 113px 0px rgba(138,90,138,1);
-  border: 2px dashed purple;
+  border: 5px solid white;
   height: 100%;
   width: 100%
   }
 }
 @media (min-width: 50px) and (max-width: 1000px) {
   #rainbow-springs {
-    border-radius: 55px;
+    /* border-radius: 55px; */
     -webkit-box-shadow: 2px 0px 113px 0px rgba(138,90,138,1);
     -moz-box-shadow: 2px 0px 113px 0px rgba(138,90,138,1);
     box-shadow: 2px 0px 113px 0px rgba(138,90,138,1);
-    border: 2px dashed purple;
+    border: 5px solid white;
     height: 100%;
     width: 100%
   }
