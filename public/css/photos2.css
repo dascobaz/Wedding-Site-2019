@@ -80,7 +80,7 @@
 
 .overlay-content {
   position: relative;
-  top: 10%;
+  top: 12%;
   width: 100%;
   text-align: center;
   margin-top: 5px;
@@ -125,14 +125,14 @@
 }
 
 .carousel {
-  /*   background: #FAFAFA; */
+    /* background: black; */
 }
 
 .carousel-cell {
   width: 66%;
   height: 400px;
   margin-right: 10px;
-  /*   background: #333; */
+    /* background: #333; */
 }
 
 .carousel-cell-image {
