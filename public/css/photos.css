@@ -75,7 +75,7 @@ border: 1px solid black;
 }
 @media (min-width: 50px) and (max-width: 1000px) {
   .item img {
-    height: 55%!important;
+    height: 55%;  /*!important;*/
     margin: auto;
   }
 }
