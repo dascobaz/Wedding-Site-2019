@@ -1,3 +1,11 @@
+if (screen.width <= 699) {
+document.location = "/html/photos1.html";
+}
+
+if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i))) {
+   location.replace("/html/photos1.html");
+}
+
 function openModal(idx) {
   var isModalOpen = $("body").hasClass("modal-open");
 
