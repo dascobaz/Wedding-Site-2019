@@ -1,6 +1,5 @@
 body {
-  background-color: #292b2c;
-
+  /* background-color: #292b2c; */
 }
 
 /* nav bar */
@@ -54,6 +53,7 @@ border: 1px solid black;
 
 /* end nav */
 
+/* photos1 */
 .carousel-slide {
   margin: auto;
 }
@@ -71,15 +71,42 @@ border: 1px solid black;
   .item img {
     height: 55%!important;
     margin: auto;
+    margin-top: 15px;
   }
 }
 @media (min-width: 50px) and (max-width: 1000px) {
   .item img {
     height: 55%!important;
     margin: auto;
+    margin-top: 15%;
   }
 }
 
 .carousel-control {
   background : none!important;
+}
+
+@media (max-width: 1000px) {
+  .carousel-control {
+    background : none!important;
+    margin-bottom: 50%;
+  }
+}
+@media (min-width: 50px) and (max-width: 1000px) {
+  .carousel-control {
+    background : none!important;
+    margin-bottom: 50%;
+  }
+}
+
+
+@media (max-width: 1000px) {
+  .carousel-indicators {
+    margin-bottom: 65%;
+  }
+}
+@media (min-width: 50px) and (max-width: 1000px) {
+  .carousel-indicators {
+    margin-bottom: 65%;
+  }
 }
