@@ -1,0 +1,71 @@
+body, html {
+    height: 100%;
+    background-color: #191919;
+}
+
+/* nav & title */
+h1, .nav-pills>li>a {
+  color: #264653;
+  font-size: 30px;
+  font-family: 'Black And White Picture', sans-serif;
+}
+
+@media (max-width: 1000px) {
+  h1, .nav-pills>li>a {
+    color: #264653;
+    font-size: 50px;
+    font-family: 'Black And White Picture', sans-serif;
+  }
+}
+@media (min-width: 50px) and (max-width: 1000px) {
+  h1, .nav-pills>li>a {
+    color: #264653;
+    font-size: 50px;
+    font-family: 'Black And White Picture', sans-serif;
+  }
+}
+
+/* nav bar */
+.nav-pills>li{
+  background:#FFE1FF;
+  border: 1px solid white;
+}
+
+/* nav text  */
+.nav-pills>li.active>a{
+  background: #F4A261;
+}
+
+.nav-pills>li>a{
+  color: #264653;
+}
+
+/*donate box*/
+.container-flex, .container-order,.flex-center-center{
+  background-color: #191919;
+  display:flex;
+  flex-direction: row;
+  align-items: stretch;
+  width: 100%;
+  /* background: lightgrey; */
+  background-repeat: no-repeat;
+  background-size: cover;
+/* border: 1px solid lightpink; */
+  justify-content: space-around;
+  /* padding-top: 2rem; */
+  /* -webkit-box-shadow: 0px 2px 40px 1px rgba(0,0,0,0.48);
+  -moz-box-shadow: 0px 2px 40px 1px rgba(0,0,0,0.48);
+  box-shadow: 0px 2px 40px 1px rgba(0,0,0,0.48); */
+
+}
+
+.text {
+  color: white;
+}
+
+.sticky-footer {
+  padding-top: 2.5em;
+    background-color: #191919;
+    color: white;
+    font-size: 10px;
+}

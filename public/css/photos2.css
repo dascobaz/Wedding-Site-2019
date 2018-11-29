@@ -2,10 +2,16 @@
 
 .carousel {
   font-family: 'Source Sans Pro';
+
 }
 
 .row {
+  background-color: black;
+  background-image: url('/images/flowers.jpeg');
+  background-repeat: no-repeat;
+  /* background-size: cover; */
   padding-bottom: 10px;
+  padding-top: 10px;
 }
 
 .container img {

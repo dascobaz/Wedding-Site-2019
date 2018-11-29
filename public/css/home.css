@@ -125,9 +125,9 @@ border: 1px solid lightpink;
   background-image: url('/images/gold.jpeg');
 }
 
-#wedding-party-box{
+/* #wedding-party-box{ */
   /* background:	#e8d8c3; */
-  background: rgba(252,235,210,1);
+  /* background: rgba(252,235,210,1);
   background: -moz-linear-gradient(top, rgba(252,235,210,1) 0%, rgba(252,235,210,1) 8%, rgba(232,200,151,1) 29%, rgba(232,200,151,1) 51%, rgba(240,231,184,1) 77%, rgba(242,226,201,1) 100%);
   background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(252,235,210,1)), color-stop(8%, rgba(252,235,210,1)), color-stop(29%, rgba(232,200,151,1)), color-stop(51%, rgba(232,200,151,1)), color-stop(77%, rgba(240,231,184,1)), color-stop(100%, rgba(242,226,201,1)));
   background: -webkit-linear-gradient(top, rgba(252,235,210,1) 0%, rgba(252,235,210,1) 8%, rgba(232,200,151,1) 29%, rgba(232,200,151,1) 51%, rgba(240,231,184,1) 77%, rgba(242,226,201,1) 100%);
@@ -135,7 +135,7 @@ border: 1px solid lightpink;
   background: -ms-linear-gradient(top, rgba(252,235,210,1) 0%, rgba(252,235,210,1) 8%, rgba(232,200,151,1) 29%, rgba(232,200,151,1) 51%, rgba(240,231,184,1) 77%, rgba(242,226,201,1) 100%);
   background: linear-gradient(to bottom, rgba(252,235,210,1) 0%, rgba(252,235,210,1) 8%, rgba(232,200,151,1) 29%, rgba(232,200,151,1) 51%, rgba(240,231,184,1) 77%, rgba(242,226,201,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcebd2', endColorstr='#f2e2c9', GradientType=0 );
-}
+} */
 
 /* stories background */
 .box {
@@ -161,11 +161,10 @@ border: 1px solid lightpink;
 }
 
 /*order wedding party*/
-.wedding-party {
+/* .wedding-party {
   border-radius: 50%;
   height: 200px;
   width: 200px;
-  /* background:silver; */
   padding: 1rem;
   border: 1px solid white;
   background-image: url('/images/white-sparkle.png');
@@ -185,28 +184,24 @@ border: 1px solid lightpink;
 .pink{
   order: 4;
   background-image: url("/images/amy.jpg");
-  /* background-repeat: no-repeat; */
   background-size:contain;
 }
 
 .blue{
    order: 3;
    background-image: url("/images/jayanti.jpg");
-   /* background-repeat: no-repeat; */
    background-size:contain;
 
 }
 .breeze {
     order: 2;
     background-image: url("/images/yamuna.jpg");
-    /* background-repeat: no-repeat; */
     background-size:contain;
 
 }
 .yellow{
   order: 1;
   background-image: url("/images/chay.jpg");
-  /* background-repeat: no-repeat; */
   background-size:contain;
 
 }
@@ -239,7 +234,7 @@ border: 1px solid lightpink;
   margin-top: 80%;
   text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
   font-size: 20px;
-}
+} */
 
 /*Horizontal and vertical alignment*/
 .flex-center-center{
