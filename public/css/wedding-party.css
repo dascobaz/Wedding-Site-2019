@@ -1,19 +1,41 @@
 /*links*/
 #links {
   font-family: sans-serif;
-  background: rgba(226,226,226,1);
-  background: -moz-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 42%, rgba(209,209,209,1) 56%, rgba(254,254,254,1) 100%);
-  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(226,226,226,1)), color-stop(42%, rgba(219,219,219,1)), color-stop(56%, rgba(209,209,209,1)), color-stop(100%, rgba(254,254,254,1)));
-  background: -webkit-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 42%, rgba(209,209,209,1) 56%, rgba(254,254,254,1) 100%);
-  background: -o-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 42%, rgba(209,209,209,1) 56%, rgba(254,254,254,1) 100%);
-  background: -ms-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 42%, rgba(209,209,209,1) 56%, rgba(254,254,254,1) 100%);
-  background: linear-gradient(to bottom, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 42%, rgba(209,209,209,1) 56%, rgba(254,254,254,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#fefefe', GradientType=0 );
+  font-size: 30px;
+  background-image: url('/images/beach.jpeg');
+  background-image: no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 
+@media (max-width: 1000px) {
+  #links {
+    font-family: sans-serif;
+    background-image: url('/images/beach.jpeg');
+    background-image: no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+  }
+}
+@media (min-width: 50px) and (max-width: 1000px) {
+  #links {
+    font-family: sans-serif;
+
+    background-image: url('/images/beach.jpeg');
+    background-image: no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+  }
 }
 
 ul {
-  width: 50%;
+  width: 70%;
   margin: 1rem auto;
   display: flex;
   flex-direction: row;
@@ -22,8 +44,31 @@ ul {
   justify-content: space-between;
 }
 
+@media (max-width: 1000px) {
+  ul {
+    width: 70%;
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0;
+    justify-content: space-between;
+  }
+}
+@media (min-width: 50px) and (max-width: 1000px) {
+  ul {
+    width: 70%;
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0;
+    justify-content: space-between;
+  }
+}
+
 li {
-  width: 32%;
+  width: 40%;
   padding: 1rem;
   box-sizing: border-box;
 
@@ -56,7 +101,6 @@ a:before {
 #photo-flip
   li{
     box-shadow: 5px 5px rgba(0, 0, 0, .1);
-
   }
 
   a {
@@ -72,10 +116,7 @@ a:before {
     background: url('/images/men-colorful.jpg') no-repeat 50% 0/cover transparent;
     filter: grayscale(100%);
   }
-  li:nth-child(3) a {
-    background: url('/images/board.jpeg') no-repeat 50% 0/cover transparent;
-    filter: grayscale(100%);
-  }
+
   li:nth-child(1) a:hover {
     background: url('/images/ladies.jpeg') no-repeat 50% 0/cover transparent;
     filter: grayscale(0);
@@ -84,10 +125,7 @@ a:before {
     background: url('/images/men-colorful.jpg') no-repeat 50% 0/cover transparent;
     filter: grayscale(0);
   }
-  li:nth-child(3) a:hover {
-    background: url('/images/giphy.gif') no-repeat 50% 0/cover transparent;
-    filter: grayscale(0);
-  }
+
 
   li {
     background-color: black;
