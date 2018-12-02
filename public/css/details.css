@@ -41,7 +41,7 @@ h1, .nav-pills>li>a {
 
 /* nav text  */
 .nav-pills>li.active>a{
-  background: #F4A261;
+  /* background: #F4A261; */
 }
 
 .nav-pills>li>a{
@@ -73,7 +73,7 @@ h1, .nav-pills>li>a {
   flex-direction: row;
   align-items: stretch;
   width: 100%;
-  background: #F4A261;
+  background: black;
   justify-content: space-around;
   padding: 2rem;
 }
@@ -84,37 +84,21 @@ h1, .nav-pills>li>a {
   color: white;
   /* font-size: 30px; */
   padding: 1rem;
-  border: 1rem solid #E9C46A;
+  /* border: 1rem solid #E9C46A; */
   text-align: center;
   }
 }
 
-@media (max-width: 1000px) {
-  #address {
-    width:75%;
-    height: 50%;
-    background:black;
-    padding: 1rem;
-    border: 1rem solid #E9C46A;
-  }
-}
-@media (min-width: 50px) and (max-width: 1000px) {
-  #address {
-    width:75%;
-    height: 50%;
-    background:black;
-    padding: 1rem;
-    border: 1rem solid #E9C46A;
-  }
-}
 
 #timeAndDate{
 font-family: 'Pacifico', cursive;
+  width: 100%;
 }
 
 @media (max-width: 1000px) {
   #timeAndDate{
   font-family: 'Pacifico', cursive;
+  width: 100%;
   }
 }
 @media (min-width: 50px) and (max-width: 1000px) {
@@ -178,7 +162,7 @@ box-shadow: 0px 2px 40px 1px rgba(0,0,0,0.48);
 }
 @media (min-width: 50px) and (max-width: 1000px) {
   #beach-wedding {
-    background-image: url('/images/beach-wed.jpeg');
+    background-image: url('/images/gold.jpeg');
     background-image: no-repeat center center fixed;
       -webkit-background-size: cover;
       -moz-background-size: cover;
@@ -227,6 +211,7 @@ box-shadow: 0px 2px 40px 1px rgba(0,0,0,0.48);
     background-size: cover;
 }
 
+/* text for things to do links */
 #backgrounds {
   border-radius: 10px;
   background: orange;
@@ -311,7 +296,6 @@ padding: 10%;
   flex-direction:column;
   height: auto;
   width: 100%;
-  background: #F4A261;
   -webkit-box-shadow: 0px 2px 40px 1px rgba(0,0,0,0.48);
   -moz-box-shadow: 0px 2px 40px 1px rgba(0,0,0,0.48);
   box-shadow: 0px 2px 40px 1px rgba(0,0,0,0.48);
@@ -327,7 +311,7 @@ list-style-type: none;
   font-weight: bold;
   /* font-size: 5rem; */
   /* color: #264653; */
-  border: 2px solid lightpink;
+  border: 2px solid black;
 }
 .sticky-footer{
   flex: 0 0 auto;
@@ -477,15 +461,15 @@ border: 10px solid transparent;
    }
 
    #wedding-party-box{
-     /* background:	#e8d8c3; */
-     background: rgba(252,235,210,1);
+     background:	#e8d8c3;
+     /* background: rgba(252,235,210,1);
      background: -moz-linear-gradient(top, rgba(252,235,210,1) 0%, rgba(252,235,210,1) 8%, rgba(232,200,151,1) 29%, rgba(232,200,151,1) 51%, rgba(240,231,184,1) 77%, rgba(242,226,201,1) 100%);
      background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(252,235,210,1)), color-stop(8%, rgba(252,235,210,1)), color-stop(29%, rgba(232,200,151,1)), color-stop(51%, rgba(232,200,151,1)), color-stop(77%, rgba(240,231,184,1)), color-stop(100%, rgba(242,226,201,1)));
      background: -webkit-linear-gradient(top, rgba(252,235,210,1) 0%, rgba(252,235,210,1) 8%, rgba(232,200,151,1) 29%, rgba(232,200,151,1) 51%, rgba(240,231,184,1) 77%, rgba(242,226,201,1) 100%);
      background: -o-linear-gradient(top, rgba(252,235,210,1) 0%, rgba(252,235,210,1) 8%, rgba(232,200,151,1) 29%, rgba(232,200,151,1) 51%, rgba(240,231,184,1) 77%, rgba(242,226,201,1) 100%);
      background: -ms-linear-gradient(top, rgba(252,235,210,1) 0%, rgba(252,235,210,1) 8%, rgba(232,200,151,1) 29%, rgba(232,200,151,1) 51%, rgba(240,231,184,1) 77%, rgba(242,226,201,1) 100%);
      background: linear-gradient(to bottom, rgba(252,235,210,1) 0%, rgba(252,235,210,1) 8%, rgba(232,200,151,1) 29%, rgba(232,200,151,1) 51%, rgba(240,231,184,1) 77%, rgba(242,226,201,1) 100%);
-     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcebd2', endColorstr='#f2e2c9', GradientType=0 );
+     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcebd2', endColorstr='#f2e2c9', GradientType=0 ); */
    }
 
    .wedding-party {
@@ -528,51 +512,57 @@ border: 10px solid transparent;
      background-size:contain;
    }
 
-   .blue{
-      order: 3;
+   /* .blue{
       background-image: url("/images/jayanti.jpg");
-      background-size:contain;
-
-   }
+      background-repeat: no-repeat;
+      background-size: contain;
+      height: 100%;
+   } */
    .breeze {
-       order: 2;
        background-image: url("/images/yamuna.jpg");
-       background-size:contain;
-
+       background-repeat: no-repeat;
+       background-size: contain;
+       height: 100%;
    }
    .yellow{
-     order: 1;
      background-image: url("/images/chay.jpg");
-     background-size:contain;
-
+     background-repeat: no-repeat;
+     background-size: contain;
+     height: 100%;
    }
 
    #chay {
-     color: white;
-     text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
-     font-size: 20px;
-     margin-top: 80%;
-     height: auto;
-     width: auto;
+     background-image: url('/images/jayanti.jpg');
+     background-image: no-repeat center center fixed;
+       -webkit-background-size: cover;
+       -moz-background-size: cover;
+       -o-background-size: cover;
+       background-size: cover;
    }
 
    #yamuna {
-     color: white;
-     text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
-     font-size: 20px;
-     margin-top: 80%;
+     background-image: url('/images/jayanti.jpg');
+     background-image: no-repeat center center fixed;
+       -webkit-background-size: cover;
+       -moz-background-size: cover;
+       -o-background-size: cover;
+       background-size: cover;
    }
 
    #jayanti {
-     color: white;
-     margin-top: 80%;
-     text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
-     font-size: 20px;
+     background-image: url('/images/jayanti.jpg');
+     background-image: no-repeat center center fixed;
+       -webkit-background-size: cover;
+       -moz-background-size: cover;
+       -o-background-size: cover;
+       background-size: cover;
    }
 
    #amy {
-     color: white;
-     margin-top: 80%;
-     text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
-     font-size: 20px;
+     background-image: url('/images/jayanti.jpg');
+     background-image: no-repeat center center fixed;
+       -webkit-background-size: cover;
+       -moz-background-size: cover;
+       -o-background-size: cover;
+       background-size: cover;
    }

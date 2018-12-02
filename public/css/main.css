@@ -10,42 +10,44 @@ html, body, .page {
 h1, .nav-pills>li>a {
   font-size: 30px;
   font-family: 'Black And White Picture', sans-serif;
-  border: 1px solid white;
+  /* border: 1px solid white; */
 }
 
 @media (max-width: 1000px) {
   h1, .nav-pills>li>a {
-    color: #264653;
+    /* color: #264653; */
     font-weight: bold;
     font-size: 50px;
     font-family: 'Black And White Picture', sans-serif;
-    border: 1px solid white;
+    /* border: 1px solid white; */
   }
   }
-}
+
 @media (min-width: 50px) and (max-width: 1000px) {
   h1, .nav-pills>li>a {
-    color: #264653;
+    /* color: #264653; */
     font-weight: bold;
     font-size: 50px;
     font-family: 'Black And White Picture', sans-serif;
-    border: 1px solid white;
+    /* border: 1px solid white; */
   }
   }
-}
+
 
 h3 {
-  color:#2A9D8F;
+  /* color:#2A9D8F; */
 }
 .nav-pills>li{
-  background:lightblue;
+  /* background:#FFE1FF; */
+
 
 }
 .nav-pills>li.active>a{
-  background: #F4A261;
+  /* background: #F4A261; */
 }
 .nav-pills>li>a{
   color: #264653;
+
 }
 
 * {
@@ -57,112 +59,9 @@ h3 {
 }
 
 
-/* #p2 {
-  left: 200%;
-} */
-
-/*p2*/
-
-
-/*rsvp header*/
-/* @import url(https://fonts.googleapis.com/css?family=Varela+Round); */
-
-/* #rsvpHeader {
-  background: hsla(0, 0%, 0%, .9);
-} */
-
-/* h2 {
-  color: hsla(0, 100%, 0%, .9);
-  font: normal Varela Round, sans-serif;
-  letter-spacing: 5px;
-  position: absolute;
-  top: 30%;
-  width: 100%;
-  animation: move linear 2000ms infinite;
-}
-
-@keyframes move {
-  0% {
-    text-shadow:
-      4px -4px 0 hsla(200, 100%, 50%, 1),
-      3px -3px 0 hsla(200, 100%, 50%, 1),
-      2px -2px 0 hsla(200, 0%, 50%, 1),
-      1px -1px 0 hsla(200, 100%, 50%, 1),
-      -4px 4px 0 hsla(300, 100%, 50%, 1),
-      -3px 3px 0 hsla(300, 0%, 50%, 1),
-      -2px 2px 0 hsla(300, 100%, 50%, 1),
-      -1px 1px 0 hsla(300, 100%, 50%, 1)
-    ;
-  }
-  25% {
-    text-shadow:
-      -4px -4px 0 hsla(300, 0%, 50%, 1),
-      -3px -3px 0 hsla(300, 100%, 50%, 1),
-      -2px -2px 0 hsla(300, 100%, 50%, 1),
-      -1px -1px 0 hsla(300, 100%, 50%, 1),
-      4px 4px 0 hsla(290, 0%, 50%, 1),
-      3px 3px 0 hsla(290, 100%, 50%, 1),
-      2px 2px 0 hsla(290, 100%, 50%, 1),
-      1px 1px 0 hsla(290, 0%, 50%, 1)
-    ;
-  }
-  50% {
-    text-shadow:
-      -4px 4px 0 hsla(300, 100%, 50%, 1),
-      -3px 3px 0 hsla(300, 100%, 50%, 1),
-      -2px 2px 0 hsla(300, 100%, 50%, 1),
-      -1px 1px 0 hsla(300, 100%, 50%, 1),
-      4px -4px 0 hsla(280, 100%, 50%, 1),
-      3px -3px 0 hsla(280, 100%, 50%, 1),
-      2px -2px 0 hsla(280, 100%, 50%, 1),
-      1px -1px 0 hsla(280, 0%, 0%, 1)
-    ;
-  }
-  75% {
-    text-shadow:
-      4px 4px 0 hsla(200, 0%, 50%, 1),
-      3px 3px 0 hsla(200, 100%, 50%, 1),
-      2px 2px 0 hsla(200, 0%, 50%, 1),
-      1px 1px 0 hsla(200, 100%, 50%, 1),
-      -4px -4px 0 hsla(300, 100%, 50%, 1),
-      -3px -3px 0 hsla(280, 100%, 50%, 1),
-      -2px -2px 0 hsla(280, 100%, 50%, 1),
-      -1px -1px 0 hsla(290, 0%, 50%, 1)
-    ;
-  }
-  100% {
-    text-shadow:
-      4px -4px 0 hsla(300, 0%, 50%, 0),
-      3px -3px 0 hsla(300, 100%, 50%, 1),
-      2px -2px 0 hsla(300, 0%, 0%, 1),
-      1px -1px 0 hsla(300, 100%, 50%, 1),
-      -4px 4px 0 hsla(300, 0%, 50%, 1),
-      -3px 3px 0 hsla(300, 100%, 50%, 1),
-      -2px 2px 0 hsla(300, 0%, 50%, 1),
-      -1px 1px 0 hsla(300, 100%, 50%, 1)
-    ;
-  }
-} */
-
-/* canvas moving background */
-/* #prettyBox{
-  width: 100%;
-  height: 100%;
-  background-image: url('/images/fromeFlowers.png');
-  background-image: no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  position: fixed;
-  top: 50%;
-  left: 50%; */
-  /* bring your own prefixes */
-  /* transform: translate(-55%, -55%);
-} */
 
 canvas {
-  background-color: silver;
+  /* background-color: silver; */
   background-image: url('/images/beach.jpeg');
   background-image: no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -170,6 +69,28 @@ canvas {
     -o-background-size: cover;
     background-size: cover;
 }
+
+/* @media (max-width: 1000px) {
+  canvas {
+    background-image: url('/images/gold.jpeg');
+    background-image: no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+  }
+  }
+
+@media (min-width: 50px) and (max-width: 1000px) {
+  canvas {
+    background-image: url('/images/gold.jpeg');
+    background-image: no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+  }
+  } */
 
 #bg {
 	position: fixed;
@@ -191,18 +112,51 @@ canvas {
 /*envelope*/
 #envelope  {
   background: #D4AF37;
-  /* background-image: url('/images/gold.jpeg'); */
    width: 500px;
    height: 250px;
    position: absolute;
    left: 40%;
-   top: 50%;
+   top: 45%;
    margin-left: -150px;
    margin-top: -0px;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
   box-shadow: 0px 10px 10px rgba(0,0,0,0.5);
 }
+
+@media (max-width: 1000px) {
+  #envelope  {
+    background: #D4AF37;
+     width: 500px;
+     height: 250px;
+     position: absolute;
+     left: 40%;
+     top: 20%;
+     margin-left: -150px;
+     margin-top: -0px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.5);
+  }
+  }
+
+@media (min-width: 50px) and (max-width: 1000px) {
+  #envelope  {
+    background: #D4AF37;
+     width: 500px;
+     height: 250px;
+     position: absolute;
+     left: 40%;
+     top: 20%;
+     margin-left: -150px;
+     margin-top: -0px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.5);
+  }
+  }
+
+
 
 #lid {
   border-color: transparent transparent #D4AF37 transparent;
