@@ -1,0 +1,111 @@
+/*links*/
+#links {
+  font-family: sans-serif;
+  background: rgba(226,226,226,1);
+  background: -moz-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 42%, rgba(209,209,209,1) 56%, rgba(254,254,254,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(226,226,226,1)), color-stop(42%, rgba(219,219,219,1)), color-stop(56%, rgba(209,209,209,1)), color-stop(100%, rgba(254,254,254,1)));
+  background: -webkit-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 42%, rgba(209,209,209,1) 56%, rgba(254,254,254,1) 100%);
+  background: -o-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 42%, rgba(209,209,209,1) 56%, rgba(254,254,254,1) 100%);
+  background: -ms-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 42%, rgba(209,209,209,1) 56%, rgba(254,254,254,1) 100%);
+  background: linear-gradient(to bottom, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 42%, rgba(209,209,209,1) 56%, rgba(254,254,254,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#fefefe', GradientType=0 );
+
+}
+
+ul {
+  width: 50%;
+  margin: 1rem auto;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding: 0;
+  justify-content: space-between;
+}
+
+li {
+  width: 32%;
+  padding: 1rem;
+  box-sizing: border-box;
+
+}
+
+a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+}
+
+li,
+a,
+a:after,
+a:before {
+  transition: .3s ease;
+  color:white;
+  font-size: 100%;
+}
+
+#photo-zoom
+  li {
+    background-color: black;
+    box-shadow: 5px 5px rgba(0, 0, 0, .1);
+  }
+  a {
+    padding: 70% 10% 25% 10%;
+  }
+
+#photo-flip
+  li{
+    box-shadow: 5px 5px rgba(0, 0, 0, .1);
+
+  }
+
+  a {
+    padding: 10% 10% 85% 10%;
+    text-shadow: 0 0 5px #000, 0 0 20px #000;
+  }
+
+  li:nth-child(1) a {
+    background: url('/images/ladies.jpeg') no-repeat 50% 0/cover transparent;
+    filter: grayscale(100%);
+  }
+  li:nth-child(2) a {
+    background: url('/images/men-colorful.jpg') no-repeat 50% 0/cover transparent;
+    filter: grayscale(100%);
+  }
+  li:nth-child(3) a {
+    background: url('/images/board.jpeg') no-repeat 50% 0/cover transparent;
+    filter: grayscale(100%);
+  }
+  li:nth-child(1) a:hover {
+    background: url('/images/ladies.jpeg') no-repeat 50% 0/cover transparent;
+    filter: grayscale(0);
+  }
+  li:nth-child(2) a:hover {
+    background: url('/images/men-colorful.jpg') no-repeat 50% 0/cover transparent;
+    filter: grayscale(0);
+  }
+  li:nth-child(3) a:hover {
+    background: url('/images/giphy.gif') no-repeat 50% 0/cover transparent;
+    filter: grayscale(0);
+  }
+
+  li {
+    background-color: black;
+    box-shadow: 5px 5px rgba(0, 0, 0, .1);
+    border-radius:
+  }
+
+  a {
+    padding: 42.5% 0;
+  }
+  li {
+    transform: rotate(0);
+  }
+  li:hover {
+    transform: rotate(-5deg);
+  }
+
+
+  button:hover {
+    cursor: pointer;
+  }
