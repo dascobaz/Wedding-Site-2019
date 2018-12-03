@@ -157,11 +157,20 @@ border: 3px solid tan;
 /* stories background */
 .box {
   width:25%;
-  background:#592734;
+  /* background:#592734; */
   padding: 3rem;
-  -webkit-box-shadow: inset 0px 4px 300px 184px rgba(245,235,191,1);
+  /* -webkit-box-shadow: inset 0px 4px 300px 184px rgba(245,235,191,1);
 -moz-box-shadow: inset 0px 4px 300px 184px rgba(245,235,191,1);
-box-shadow: inset 0px 4px 300px 184px rgba(245,235,191,1);
+box-shadow: inset 0px 4px 300px 184px rgba(245,235,191,1); */
+background: rgba(226,226,226,1);
+background: -moz-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(232,227,232,1) 14%, rgba(255,247,255,1) 47%, rgba(235,235,235,1) 82%, rgba(209,209,209,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(226,226,226,1)), color-stop(14%, rgba(232,227,232,1)), color-stop(47%, rgba(255,247,255,1)), color-stop(82%, rgba(235,235,235,1)), color-stop(100%, rgba(209,209,209,1)));
+background: -webkit-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(232,227,232,1) 14%, rgba(255,247,255,1) 47%, rgba(235,235,235,1) 82%, rgba(209,209,209,1) 100%);
+background: -o-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(232,227,232,1) 14%, rgba(255,247,255,1) 47%, rgba(235,235,235,1) 82%, rgba(209,209,209,1) 100%);
+background: -ms-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(232,227,232,1) 14%, rgba(255,247,255,1) 47%, rgba(235,235,235,1) 82%, rgba(209,209,209,1) 100%);
+background: linear-gradient(to bottom, rgba(226,226,226,1) 0%, rgba(232,227,232,1) 14%, rgba(255,247,255,1) 47%, rgba(235,235,235,1) 82%, rgba(209,209,209,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#d1d1d1', GradientType=0 );
+padding: 2px;
 }
 
 
@@ -187,7 +196,7 @@ box-shadow: inset 0px 4px 300px 184px rgba(245,235,191,1);
   font-weight: bold;
   font-size: 5rem;
   color: #6f484d;
-border: 2px solid tan;
+border: 2px solid black;
 
 }
 .col-1{
@@ -239,7 +248,7 @@ border: 2px solid tan;
   color: black;
 background:#FFE1FF;
 border: 10px solid transparent;
-  padding: 10px;
+  padding: 1px;
   -webkit-border-image: url('/images/stars.gif') 30 round; /* Safari 3.1-5*/
   -o-border-image: url('/images/stars.gif') 30 round; /* Opera 11-12.1 */
   border-image: url('/images/stars.gif') 30 round;
@@ -332,4 +341,11 @@ h1,  {
      -webkit-box-shadow: 0px 2px 40px 1px rgba(0,0,0,0.48);
      -moz-box-shadow: 0px 2px 40px 1px rgba(0,0,0,0.48);
      box-shadow: 0px 2px 40px 1px rgba(0,0,0,0.48);
+   }
+
+   .countdown {
+     background-color: white;
+     /* background-image: url('/images/confetti.webp'); */
+     border: 2px solid tan;
+    padding: 2px;
    }

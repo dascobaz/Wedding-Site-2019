@@ -128,9 +128,31 @@ font-family: 'Pacifico', cursive;
     -o-background-size: cover;
     background-size: cover;
     border: 2px solid black;
-    /* -webkit-box-shadow: 0px 2px 40px 1px rgba(0,0,0,0.48);
--moz-box-shadow: 0px 2px 40px 1px rgba(0,0,0,0.48);
-box-shadow: 0px 2px 40px 1px rgba(0,0,0,0.48); */
+}
+
+@media (max-width: 1000px) {
+  #backgroundBox {
+    background-image: url('');
+    background-image: no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      background-color: black;
+      border: 2px solid black;
+  }
+}
+@media (min-width: 50px) and (max-width: 1000px) {
+  #backgroundBox {
+    background-image: url('');
+    background-image: no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      background-color: black;
+      border: 2px solid black;
+  }
 }
 
 
@@ -308,7 +330,7 @@ list-style-type: none;
   font-weight: bold;
   /* font-size: 5rem; */
   color: #264653;
-background: #70DBDB;
+background: white;
 font-family: 'Pacifico', cursive;
 border: 10px solid transparent;
   padding: 15px;
@@ -322,18 +344,27 @@ border: 10px solid transparent;
   #map {
     height: 200px;
     width: 100%;
+    background-image: url('/images/LionsClubMap.png');
+    background-size: contain;
+    background-repeat: no-repeat;
    }
 
    @media (max-width: 1000px) {
      #map {
-       height: 500px;
+       height: 1500px;
        width: 100%;
+       background-image: url('/images/LionsClubMap.png');
+       background-size: contain;
+       background-repeat: no-repeat;
      }
    }
    @media (min-width: 50px) and (max-width: 1000px) {
      #map {
-       height: 500px;
+       height: 150px;
        width: 100%;
+       background-image: url('/images/LionsClubMap.png');
+       background-size: contain;
+       background-repeat: no-repeat;
      }
    }
 
@@ -558,25 +589,24 @@ border: 10px solid transparent;
    } */
 
    #iframe-style {
-height:60%;
+height:65%;
 width: 100%
    }
 
    @media (max-width: 1000px) {
      #iframe-style {
-  height:15%;
+  height:18%;
   width: 100%
      }
    }
    @media (min-width: 50px) and (max-width: 1000px) {
      #iframe-style {
-  height:15%;
+  height:18%;
   width: 100%
      }
    }
 
 .box-shadow{
-  knob
  background: rgba(226,226,226,1);
  background: -moz-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(232,227,232,1) 14%, rgba(255,247,255,1) 47%, rgba(235,235,235,1) 82%, rgba(209,209,209,1) 100%);
  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(226,226,226,1)), color-stop(14%, rgba(232,227,232,1)), color-stop(47%, rgba(255,247,255,1)), color-stop(82%, rgba(235,235,235,1)), color-stop(100%, rgba(209,209,209,1)));
@@ -597,3 +627,7 @@ padding: 1px;
        -o-background-size: cover;
        background-size: cover;
    }
+
+   iframe{
+    overflow:hidden;
+}

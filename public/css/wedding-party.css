@@ -35,7 +35,7 @@
 }
 
 ul {
-  width: 70%;
+  width: 75%;
   margin: 1rem auto;
   display: flex;
   flex-direction: row;
@@ -46,7 +46,7 @@ ul {
 
 @media (max-width: 1000px) {
   ul {
-    width: 70%;
+    width: 80%;
     margin: 1rem auto;
     display: flex;
     flex-direction: row;
@@ -57,7 +57,7 @@ ul {
 }
 @media (min-width: 50px) and (max-width: 1000px) {
   ul {
-    width: 70%;
+    width: 80%;
     margin: 1rem auto;
     display: flex;
     flex-direction: row;
