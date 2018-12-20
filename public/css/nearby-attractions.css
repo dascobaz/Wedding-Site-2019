@@ -1,0 +1,158 @@
+/*links*/
+/*links*/
+#links {
+  font-family: sans-serif;
+  font-size: 30px;
+  background-image: url('/images/beach.jpeg');
+  background-image: no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+@media (max-width: 1000px) {
+  #links {
+    font-family: sans-serif;
+    background-image: url('/images/beach.jpeg');
+    background-image: no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+  }
+}
+@media (min-width: 50px) and (max-width: 1000px) {
+  #links {
+    font-family: sans-serif;
+
+    background-image: url('/images/beach.jpeg');
+    background-image: no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+  }
+}
+
+ul {
+  width: 90%;
+  margin: 1rem auto;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding: 0;
+  justify-content: space-between;
+}
+
+@media (max-width: 1000px) {
+  ul {
+    width: 80%;
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0;
+    justify-content: space-between;
+  }
+}
+@media (min-width: 50px) and (max-width: 1000px) {
+  ul {
+    width: 90%;
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0;
+    justify-content: space-between;
+  }
+}
+
+li {
+  width: 40%;
+  padding: 1rem;
+  box-sizing: border-box;
+
+}
+
+a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+}
+
+li,
+a,
+a:after,
+a:before {
+  transition: .3s ease;
+  color:white;
+  font-size: 100%;
+}
+
+
+#photo-zoom
+  li {
+    background-color: black;
+    box-shadow: 5px 5px rgba(0, 0, 0, .1);
+  }
+  a {
+    padding: 70% 10% 25% 10%;
+  }
+
+#photo-flip
+  li{
+    box-shadow: 5px 5px rgba(0, 0, 0, .1);
+
+  }
+
+  a {
+    padding: 10% 10% 85% 10%;
+    text-shadow: 0 0 5px #000, 0 0 20px #000;
+  }
+/* pictures in boxes */
+  li:nth-child(1) a {
+    background: url('/images/don-.jpg') no-repeat 50% 0/cover transparent;
+    filter: grayscale(100%);
+  }
+  li:nth-child(2) a {
+    background: url('/images/Caddys.jpg') no-repeat 50% 0/cover transparent;
+    filter: grayscale(100%);
+  }
+  li:nth-child(3) a {
+    background: url('/images/beach-wedding-photo.jpeg') no-repeat 50% 0/cover transparent;
+    filter: grayscale(100%);
+  }
+  /* same pictures for after grayscale effect */
+  li:nth-child(1) a:hover {
+    background: url('/images/don-.jpg') no-repeat 50% 0/cover transparent;
+    filter: grayscale(0);
+  }
+  li:nth-child(2) a:hover {
+    background: url('/images/Caddys.jpg') no-repeat 50% 0/cover transparent;
+    filter: grayscale(0);
+  }
+  li:nth-child(3) a:hover {
+    background: url('/images/beach-wedding-photo.jpeg') no-repeat 50% 0/cover transparent;
+    filter: grayscale(0);
+  }
+
+  li {
+    background-color: black;
+    box-shadow: 5px 5px rgba(0, 0, 0, .1);
+    border-radius:
+  }
+
+  a {
+    padding: 42.5% 0;
+  }
+  li {
+    transform: rotate(0);
+  }
+  li:hover {
+    transform: rotate(-5deg);
+  }
+
+  button:hover {
+    cursor: pointer;
+  }

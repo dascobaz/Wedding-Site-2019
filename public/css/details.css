@@ -319,11 +319,11 @@ list-style-type: none;
 }
 
 .sticky-content{
-  flex: 1 0 auto;
+  /* flex: 1 0 auto; */
   font-weight: bold;
   /* font-size: 5rem; */
   /* color: #264653; */
-  border: 2px solid black;
+  /* border: 1px solid white; */
 }
 .sticky-footer{
   flex: 0 0 auto;
@@ -333,10 +333,10 @@ list-style-type: none;
 background: white;
 font-family: 'Pacifico', cursive;
 border: 10px solid transparent;
-  padding: 15px;
-  -webkit-border-image: url('/images/stars.gif') 30 round; /* Safari 3.1-5*/
-  -o-border-image: url('/images/stars.gif') 30 round; /* Opera 11-12.1 */
-  border-image: url('/images/stars.gif') 30 round;
+  /* padding: 15px; */
+  /* -webkit-border-image: url('/images/stars.gif') 30 round;
+  -o-border-image: url('/images/stars.gif') 30 round;
+  border-image: url('/images/stars.gif') 30 round; */
 }
 
 
@@ -493,7 +493,7 @@ border: 10px solid transparent;
      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcebd2', endColorstr='#f2e2c9', GradientType=0 ); */
    }
 
-   .wedding-party {
+   /* .wedding-party {
      border-radius: 50%;
      height: 200px;
      width: 200px;
@@ -518,7 +518,7 @@ border: 10px solid transparent;
      -webkit-box-shadow: 0px 2px 40px 1px rgba(0,0,0,0.48);
      -moz-box-shadow: 0px 2px 40px 1px rgba(0,0,0,0.48);
      box-shadow: 0px 2px 40px 1px rgba(0,0,0,0.48);
-   }
+   } */
 
    .container-order > .box{
      font-size: 4rem;
@@ -529,7 +529,6 @@ border: 10px solid transparent;
    }
    .pink{
      order: 4;
-     background-image: url("/images/amy.jpg");
      background-size:contain;
    }
 
@@ -589,7 +588,7 @@ border: 10px solid transparent;
    } */
 
    #iframe-style {
-height:65%;
+height:70%;
 width: 100%
    }
 
@@ -630,4 +629,8 @@ padding: 1px;
 
    iframe{
     overflow:hidden;
+}
+
+.jah-site{
+  background-color: lightpink;
 }
