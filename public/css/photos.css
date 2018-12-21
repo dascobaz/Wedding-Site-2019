@@ -1,5 +1,6 @@
-
-
+html, body {
+  background:#FFE1FF;
+}
 /* nav bar */
 h1, .nav-pills>li>a {
   color: #264653;
@@ -107,4 +108,8 @@ border: 1px solid black;
   .carousel-indicators {
     margin-bottom: 65%;
   }
+}
+
+.sticky-footer {
+  background:#FFE1FF;
 }
