@@ -38,12 +38,13 @@ h3 {
   /* color:#2A9D8F; */
 }
 .nav-pills>li{
-  /* background:#FFE1FF; */
-
+  background:#FFE1FF;
+  border: 1px solid white;
 
 }
 .nav-pills>li.active>a{
-  /* background: #F4A261; */
+  background: #F4A261;
+
 }
 .nav-pills>li>a{
   color: #264653;
@@ -62,7 +63,7 @@ h3 {
 
 canvas {
   /* background-color: silver; */
-  background-image: url('/images/beach.jpeg');
+  background-image: url('/images/white-wood.jpeg');
   background-image: no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
