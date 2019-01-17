@@ -10,3 +10,14 @@
       map: map
     });
   }
+
+// iframe redirect to new tab
+$(document).ready(function () {
+$("#iframe").load(function () {
+var ifr = document.getElementById("iframe-style");
+var anchors = ifr.contentDocument.getElementsByTagName("a");
+for (var i in anchors) {
+anchors[i].setAttribute("target", "_blank");
+}
+});
+});

@@ -203,7 +203,9 @@ font-family: 'Pacifico', cursive;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background-color: transparent;
 }
+
 
 #pic2 {
   background-image: url('/images/Caddys.jpg');
@@ -225,19 +227,25 @@ font-family: 'Pacifico', cursive;
 
 /* text for things to do links */
 #backgrounds {
-  border-radius: 10px;
-  background: orange;
-   border: 12px solid orange;
-   font-size: 20px;
+  color:white;
+  border-radius: 2px;
+  /* background: transparent rgba(0, 0, 0, 0.5); */
+   border: 30px solid rgba(0, 0, 0, 0.5);
+   -webkit-box-shadow: inset 0px 0px 198px 200px rgba(0,0,0,0.46);
+   -moz-box-shadow: inset 0px 0px 198px 200px rgba(0,0,0,0.46);
 }
 
+
 #backgrounds:hover{
-  background-color: yellow;
-  border: 12px solid yellow;
+  background-color: black;
+  border: 30px solid black;
+  box-shadow: inset 0px 0px 0px 200px rgba(0,0,0,0);
 }
 
 #pic1,#pic2,#pic3 {
   color: white;
+  font-size: 30px;
+
 }
 
 /*order */
@@ -280,8 +288,8 @@ font-family: 'Pacifico', cursive;
 .responsive > .box {
   font-weight: bold;
   /* font-size: 5rem; */
-  color: #264653;
-border: 1rem solid #E9C46A;
+color: #264653;
+border: 2px solid #ffefdb;
 padding: 10%;
 }
 .col-1{
