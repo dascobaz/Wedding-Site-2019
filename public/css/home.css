@@ -246,10 +246,10 @@ border: 2px solid black;
   flex: 0 0 auto;
   font-weight: bold;
   color: black;
-background:lightpink;
+/* background:#ffe9ec; */
 border: 10px solid transparent;
   padding: 1px;
-  /* -webkit-border-image: url('/images/stars.gif') 30 round; 
+  /* -webkit-border-image: url('/images/stars.gif') 30 round;
   -o-border-image: url('/images/stars.gif') 30 round;
   border-image: url('/images/stars.gif') 30 round; */
 }
