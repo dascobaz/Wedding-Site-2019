@@ -143,13 +143,49 @@ a:before {
     transform: rotate(-5deg);
   }
 
+  @media (max-width: 1000px) {
+    li:nth-child(1) a {
+      background: url('/images/ladies.jpeg') no-repeat  0/cover transparent;
+      filter: grayscale(0%);
+    }
+
+    li:nth-child(2) a {
+      background: url('/images/men-colorful.jpg') no-repeat  0/cover transparent;
+      filter: grayscale(0%);
+    }
+
+    li:nth-child(1) a:hover {
+      background: url('/images/ladies.jpeg') no-repeat 50% 0/cover transparent;
+      filter: grayscale(0);
+    }
+    li:nth-child(2) a:hover {
+      background: url('/images/men-colorful.jpg') no-repeat 50% 0/cover transparent;
+      filter: grayscale(0);
+    }
+
+    }
+
+
+  }
+  @media (min-width: 50px) and (max-width: 1000px) {
+    li:nth-child(1) a {
+      background: url('/images/ladies.jpeg') no-repeat  0/cover transparent;
+      filter: grayscale(0%);
+    }
+    li:nth-child(2) a {
+      background: url('/images/men-colorful.jpg') no-repeat  0/cover transparent;
+      filter: grayscale(0%);
+    }
+  }
+
+
 
   /* button:hover {
     cursor: pointer;
   } */
 
 /* modal box popup */
-.reveal-modal
+/* .reveal-modal
  {
        background:#e1e1e1;
        visibility:hidden;
@@ -163,4 +199,4 @@ a:before {
        -webkit-box-shadow:0 0 10px rgba(0,0,0,0.4);
        -moz-box-shadow:0 0 10px rgba(0,0,0,0.4);
        box-shadow:0 0 10px rgba(0,0,0,0.4)
- }
+ } */
