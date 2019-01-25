@@ -107,24 +107,24 @@ a:before {
     padding: 10% 10% 85% 10%;
     text-shadow: 0 0 5px #000, 0 0 20px #000;
   }
-
-  li:nth-child(1) a {
+  #ladytag{
     background: url('/images/ladies.jpeg') no-repeat 50% 0/cover transparent;
     filter: grayscale(100%);
   }
-  li:nth-child(2) a {
+  #dudetag {
     background: url('/images/men-colorful.jpg') no-repeat 50% 0/cover transparent;
     filter: grayscale(100%);
   }
 
-  li:nth-child(1) a:hover {
+  #ladytag {
     background: url('/images/ladies.jpeg') no-repeat 50% 0/cover transparent;
     filter: grayscale(0);
   }
-  li:nth-child(2) a:hover {
+  #dudetag {
     background: url('/images/men-colorful.jpg') no-repeat 50% 0/cover transparent;
     filter: grayscale(0);
   }
+
 
 
   li {
@@ -142,23 +142,23 @@ a:before {
   li:hover {
     transform: rotate(-5deg);
   }
-
+	
   @media (max-width: 1000px) {
-    li:nth-child(1) a {
+    #ladytag{
       background: url('/images/ladies.jpeg') no-repeat  0/cover transparent;
       filter: grayscale(0%);
     }
 
-    li:nth-child(2) a {
+    #dudetag {
       background: url('/images/men-colorful.jpg') no-repeat  0/cover transparent;
       filter: grayscale(0%);
     }
 
-    li:nth-child(1) a:hover {
+    #ladytag {
       background: url('/images/ladies.jpeg') no-repeat 50% 0/cover transparent;
       filter: grayscale(0);
     }
-    li:nth-child(2) a:hover {
+    #dudetag {
       background: url('/images/men-colorful.jpg') no-repeat 50% 0/cover transparent;
       filter: grayscale(0);
     }
@@ -166,17 +166,28 @@ a:before {
     }
 
 
-  }
+  
+  
   @media (min-width: 50px) and (max-width: 1000px) {
-    li:nth-child(1) a {
+    #ladytag{
       background: url('/images/ladies.jpeg') no-repeat  0/cover transparent;
       filter: grayscale(0%);
     }
-    li:nth-child(2) a {
+    #dudetag {
       background: url('/images/men-colorful.jpg') no-repeat  0/cover transparent;
       filter: grayscale(0%);
     }
+	
+    #ladytag {
+      background: url('/images/ladies.jpeg') no-repeat 50% 0/cover transparent;
+      filter: grayscale(0);
+    }
+    #dudetag {
+      background: url('/images/men-colorful.jpg') no-repeat 50% 0/cover transparent;
+      filter: grayscale(0);
   }
+  
+ }
 
 
 
